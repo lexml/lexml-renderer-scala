@@ -1,0 +1,152 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>br.gov.lexml</groupId>
+		<artifactId>public-maven-parent</artifactId>
+		<version>0.0.2</version>
+	</parent>
+	
+	
+	<groupId>br.gov.lexml</groupId>
+	<artifactId>lexml-renderer-scala</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
+	
+	<properties>
+		<scala.version>2.10</scala.version>
+		<scala.lib.version>${scala.version}.0</scala.lib.version>
+	</properties>
+
+	<scm>
+		<url>https://github.com/lexml/${project.artifactId}</url>
+		<developerConnection>scm:git:https://github.com/lexml/${project.artifactId}.git</developerConnection>
+		<connection>scm:git:https://github.com/lexml/${project.artifactId}.git</connection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<repositories>
+		<!-- <repository> <id>Akka</id> <name>Akka Maven2 Repository</name> <url>http://akka.io/repository/ 
+			</url> <snapshots> <enabled>false</enabled> </snapshots> </repository> -->
+		<repository>
+			<id>scala-tools.org</id>
+			<name>Scala-tools Maven2 Repository</name>
+			<url>http://scala-tools.org/repo-releases</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>scala-tools.org.snapshots</id>
+			<name>Scala-tools Maven2 Snapshot Repository</name>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>http://scala-tools.org/repo-snapshots</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<!-- <dependency> <groupId>se.scalablesolutions.akka</groupId> <artifactId>akka-actor</artifactId> 
+			<version>1.2</version> </dependency> -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+			<type>jar</type>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.1</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- <dependency> <groupId>org.scalaz</groupId> <artifactId>scalaz-core_${scala.version}</artifactId> 
+			<version>6.0.1</version> </dependency> -->
+		<!-- <dependency> <groupId>br.gov.lexml</groupId> <artifactId>lexml-xml-schemas</artifactId> 
+			<version>3.0.0</version> <type>jar</type> <scope>compile</scope> </dependency> -->
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.lib.version}</version>
+			<type>jar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.googlecode.kiama</groupId>
+			<artifactId>kiama_${scala.version}</artifactId>
+			<version>1.4.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.scala-lang</groupId>
+					<artifactId>scala-library</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.specs2</groupId>
+			<artifactId>specs2_${scala.version}</artifactId>
+			<version>1.13</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>net.alchim31.maven</groupId>
+				<artifactId>scala-maven-plugin</artifactId>
+				<version>3.1.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+							<goal>testCompile</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<sourceDir>src/main/scala</sourceDir>
+					<fork>true</fork>
+					<jvmArgs>
+						<jvmArg>-Xms1024m</jvmArg>
+						<jvmArg>-Xmx4096m</jvmArg>
+						<jvmArg>-Xss16m</jvmArg>
+					</jvmArgs>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<lexml_parser_componente_nome>${groupId}/${artifactId}</lexml_parser_componente_nome>
+							<lexml_parser_componente_build>${buildNumber}</lexml_parser_componente_build>
+						</manifestEntries>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
+	</build>
+
+
+</project>

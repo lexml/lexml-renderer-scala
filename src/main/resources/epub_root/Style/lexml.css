@@ -1,0 +1,35 @@
+.rotulo { 
+   font-weight: bold;  
+}
+
+.nomeagrupador {
+   font-weight: bold;  
+}
+
+div.epigrafe {
+	 font-weight: bold;
+	 font-size: 120%;
+}
+
+div.ementa {
+	 font-style: oblique;
+}
+
+div.parte > p.rotulo { text-align: center }
+div.parte > p.nomeagrupador { text-align: center }
+div.livro > p.rotulo { text-align: center }
+div.livro > p.nomeagrupador { text-align: center }
+div.titulo > p.rotulo { text-align: center }
+div.titulo > p.nomeagrupador { text-align: center }
+div.capitulo > p.rotulo { text-align: center }
+div.capitulo > p.nomeagrupador { text-align: center }
+div.secao > p.rotulo { text-align: center }
+div.secao > p.nomeagrupador { text-align: center }
+div.subsecao > p.rotulo { text-align: center }
+div.subsecao > p.nomeagrupador { text-align: center }
+
+div.caput > p { text-indent: 1em; }
+div.paragrafo > p { text-indent: 2em; }
+div.inciso > p { text-indent: 3em; }
+div.alinea > p { text-indent: 4em; }
+div.item > p { text-indent: 5em; }
