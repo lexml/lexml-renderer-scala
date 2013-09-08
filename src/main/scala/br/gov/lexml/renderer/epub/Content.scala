@@ -31,8 +31,8 @@ trait ResourceSource extends StreamSource {
     val is = classLoader.getResourceAsStream(resourceName)
     if (is != null) {
       IOUtils.copy(is, os)
+    	IOUtils.closeQuietly(is)
     }
-    is.close()
     os.flush()
   }
 }
