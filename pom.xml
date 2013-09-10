@@ -7,14 +7,12 @@
 		<version>0.0.2</version>
 	</parent>
 	
-	
-	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-scala</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
 	
 	<properties>
 		<scala.version>2.10</scala.version>
-		<scala.lib.version>${scala.version}.0</scala.lib.version>
+		<scala.lib.version>${scala.version}.1</scala.lib.version>
 	</properties>
 
 	<scm>
