@@ -10,9 +10,9 @@ object Check1 {
     import scala.xml._
     import br.gov.lexml.renderer.strategies.{XML => _, _}
     val renderer = XhtmlRenderer.makeRenderer()
-    val xml1 = scala.xml.XML.loadFile(new java.io.File("src/test/xml/regimento2.xml"))
+    val xml1 = scala.xml.XML.loadFile(new java.io.File("src/test/xml/regimento3.xml"))
     val epub = renderer.render(xml1)
-    val os = new BufferedOutputStream(new FileOutputStream("target/test.epub"))
+    val os = new BufferedOutputStream(new FileOutputStream("target/risf-2015.epub"))
     epub.writeZip(os)
     os.close()    
     println("main: ending")

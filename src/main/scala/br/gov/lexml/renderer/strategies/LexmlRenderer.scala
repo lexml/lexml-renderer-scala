@@ -45,12 +45,11 @@ object XhtmlRenderer {
   val spanToRemissao = everywheretd {
     rule {
       case e @ XElem("span", _, attrs, _) if attrs contains "xlink:href" ⇒ {
-        println("Found span: attrs = " + attrs)
         XElem("Remissao", "", attrs.filterKeys(_ == "xlink:href"),
           List(e copy (attributes = e.attributes - "xlink:href")))
 
       }
-      case e @ XElem("span", _, attrs, _) if { println("span attrs = " + attrs); false } ⇒ null
+      case e @ XElem("span", _, attrs, _) if { false } ⇒ null
     }
   }
 
@@ -218,7 +217,6 @@ object XhtmlRenderer {
           case e: XElem if e.attributes.contains("href") ⇒ {
             val oldHref = e.attributes.get("href").get
             val newHref = lookup(oldHref)
-            println(fname + ": mapping " + oldHref + " -> " + newHref)
             e copy (attributes = e.attributes + ("href" -> newHref))
           }
         }

@@ -1,6 +1,8 @@
 package br.gov.lexml.renderer.strategies
 
 import org.kiama.==>
+
+import org.kiama.rewriting.Strategy
 import org.kiama.rewriting.Rewriter._
 import br.gov.lexml.renderer.terms.XML.AST._
 
