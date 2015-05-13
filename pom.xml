@@ -1,19 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<parent>
-		<groupId>br.gov.lexml</groupId>
-		<artifactId>public-maven-parent</artifactId>
-		<version>0.0.3</version>
-	</parent>
-	
-		
+	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-scala</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
 	
 	<properties>
 		<scala.version>2.11</scala.version>
 		<scala.lib.version>${scala.version}.6</scala.lib.version>
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
+		<github.global.server>github</github.global.server>
 	</properties>
 
 	<scm>
@@ -23,9 +22,27 @@
 		<tag>HEAD</tag>
 	</scm>
 
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>GitHub ${project.artifactId} Repository</name>
+			<url>https://raw.github.com/lexml/mvn-repo/master</url>
+		</repository>
+	</distributionManagement>
+
 	<repositories>
-		<!-- <repository> <id>Akka</id> <name>Akka Maven2 Repository</name> <url>http://akka.io/repository/ 
-			</url> <snapshots> <enabled>false</enabled> </snapshots> </repository> -->
+		<repository>
+			<id>GitHub Repository</id>
+			<url>https://raw.github.com/lexml/mvn-repo/master</url>
+			<releases>
+      			<enabled>true</enabled>
+    		</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+
 		<repository>
 			<id>scala-tools.org</id>
 			<name>Scala-tools Maven2 Repository</name>
@@ -43,65 +60,68 @@
 			<url>http://scala-tools.org/repo-snapshots</url>
 		</repository>
 	</repositories>
-	<dependencies>
-		<!-- <dependency> <groupId>se.scalablesolutions.akka</groupId> <artifactId>akka-actor</artifactId> 
-			<version>1.2</version> </dependency> -->
-		<dependency>
-		    <groupId>org.scala-lang.modules</groupId>
-		    <artifactId>scala-xml_${scala.version}</artifactId>
-		    <version>1.0.4</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.16</version>
-			<type>jar</type>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.6.1</version>
-			<scope>runtime</scope>
-		</dependency>
-		<!-- <dependency> <groupId>org.scalaz</groupId> <artifactId>scalaz-core_${scala.version}</artifactId> 
-			<version>6.0.1</version> </dependency> -->
-		<!-- <dependency> <groupId>br.gov.lexml</groupId> <artifactId>lexml-xml-schemas</artifactId> 
-			<version>3.0.0</version> <type>jar</type> <scope>compile</scope> </dependency> -->
-		<dependency>
-			<groupId>org.scala-lang</groupId>
-			<artifactId>scala-library</artifactId>
-			<version>${scala.lib.version}</version>
-			<type>jar</type>
-		</dependency>
-
-		<dependency>
-			<groupId>com.googlecode.kiama</groupId>
-			<artifactId>kiama_${scala.version}</artifactId>
-			<version>1.5.3</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.scala-lang</groupId>
-					<artifactId>scala-library</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		
-
-	</dependencies>
+	
+	
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<detail>true</detail>
+					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.7</version>
+				<configuration>
+					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+				</configuration>
+			</plugin>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-source-plugin</artifactId>
+			  <executions>
+			    <execution>
+			      <id>attach-sources</id>
+			      <goals>
+			        <goal>jar</goal>
+			      </goals>
+			    </execution>
+			  </executions>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.8</version>
+				<configuration>
+					<message>Maven artifacts for ${project.artifactId}
+						${project.version}</message>  <!-- git commit message -->
+					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
+					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
+					<branch>refs/heads/master</branch>
+					<includes>
+						<include>**/*</include>
+					</includes>
+					<repositoryName>mvn-repo</repositoryName>      <!-- github repo name -->
+					<repositoryOwner>lexml</repositoryOwner>    <!-- github username -->
+					<merge>true</merge>
+				</configuration>
+				<executions>
+					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
+						'deploy' phase -->
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>deploy</phase>
+					</execution>
+				</executions>
+			</plugin>		
+		
+			
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
 				<artifactId>scala-maven-plugin</artifactId>
@@ -146,6 +166,57 @@
 		</resources>
 
 	</build>
+		
+	<dependencies>
+		<dependency>
+		    <groupId>org.scala-lang.modules</groupId>
+		    <artifactId>scala-xml_${scala.version}</artifactId>
+		    <version>1.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+			<type>jar</type>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.1</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.lib.version}</version>
+			<type>jar</type>
+		</dependency>
 
+		<dependency>
+			<groupId>com.googlecode.kiama</groupId>
+			<artifactId>kiama_${scala.version}</artifactId>
+			<version>1.5.3</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.scala-lang</groupId>
+					<artifactId>scala-library</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		
 
+	</dependencies>
+	
 </project>
