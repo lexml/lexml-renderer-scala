@@ -17,3 +17,5 @@ project/plugins/project/
 
 .cache
 /target/
+/.cache-main
+/.cache-tests
