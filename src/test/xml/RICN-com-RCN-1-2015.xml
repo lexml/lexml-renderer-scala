@@ -1,0 +1,2998 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-flexivel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:congresso.nacional:resolucao:1970;1@2015-04-27;publicacao;2015-04-27"/>
+    </Metadado>
+      <ProjetoNorma>
+        <Norma>
+          <ParteInicial>
+            <Epigrafe id="epigrafe">Resolução do Congresso Nacional nº 1, de 1970 (Texto consolidado pela Secretaria-Geral da Mesa do Senado Federal, publicado no Suplemento do Diário do Congresso Nacional de 03/02/2015, acrescido do adendo publicado no Diário Oficial da União de 27/04/2015 (Seção 1, página 2)) </Epigrafe>
+      <Ementa id="ementa">Regimento Comum</Ementa>
+      <Preambulo id="preambulo"><p> </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>DIREÇÃO, OBJETO E CONVOCAÇÃO DAS SESSÕES CONJUNTAS</NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>A Câmara dos Deputados e o Senado Federal, sob a direção da Mesa deste, reunir-se-ão em sessão conjunta para:</p>
+            <Inciso id="art1_cpt_inc1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>inaugurar a sessão legislativa (art. 57, § 3º, I, da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>dar posse ao Presidente e ao Vice-Presidente da República eleitos (arts. 57, § 3º, III, e 78 da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art60_par3-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>promulgar emendas à <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> (<span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art60_par3">art. 60, § 3º, da Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>discutir e votar o Orçamento (arts. 48, II, e 166 da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc6">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!par4-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>conhecer de matéria vetada e sobre ela deliberar (arts. 57, § 3º, IV, e, <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!par4">§ 4º, da Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc7">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc8">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc9">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art68-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>delegar ao Presidente da República poderes para legislar (<span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art68">art. 68 da Constituição</span>);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc10">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988);</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc11">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>XI –</Rotulo>
+            <p>elaborar ou reformar o Regimento Comum (art. 57, § 3º, II, da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>); e</p>
+            
+          </Inciso><Inciso id="art1_cpt_inc12">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>atender aos demais casos previstos na <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> e neste Regimento.</p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Por proposta das Mesas da Câmara dos Deputados e do Senado Federal, poderão ser realizadas sessões destinadas a homenagear Chefes de Estados estrangeiros e comemorativas de datas nacionais.</p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Terão caráter solene as sessões referidas nos incisos I, II, III e § 1º.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>As sessões que não tiverem data legalmente fixada serão convocadas pelo Presidente do Senado ou seu Substituto, com prévia audiência da Mesa da Câmara dos Deputados.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>As sessões realizar-se-ão no Plenário da Câmara dos Deputados, salvo escolha prévia de outro local devidamente anunciado.</p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>DOS LÍDERES</NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>São reconhecidas as lideranças das representações partidárias em cada Casa, constituídas na forma dos respectivos regimentos.</p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>O Presidente da República poderá indicar Congressista para exercer a função de Líder do governo, com as prerrogativas constantes deste Regimento.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>O Líder do Governo poderá indicar até 5 (cinco) Vice-Líderes, dentre os integrantes das representações partidárias que apoiem o governo.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Os Líderes dos partidos que elegerem as duas maiores bancadas no Senado Federal e na Câmara dos Deputados e que expressarem, em relação ao governo, posição diversa da maioria, indicarão Congressistas para exercer a função de Líder da Minoria no Congresso Nacional.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>A escolha do Líder da Minoria no Congresso Nacional será anual e se fará de forma alternada entre Senadores e Deputados Federais, de acordo com o § 3º.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>O Líder da Minoria poderá indicar cinco Vice-Líderes dentre os integrantes das representações partidárias que integrem a Minoria no Senado Federal e na Câmara dos Deputados.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par6">
+            <!--Link: urn:lex:br:senado.federal:resolucao:1970-11-27;93!art65_par1--><!--Link: urn:lex:br:senado.federal:resolucao:1970-11-27;93!art65_par2-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>Para efeito desta Resolução, entende-se por Maioria e Minoria o disposto nos <span xlink:href="urn:lex:br:senado.federal:resolucao:1970-11-27;93!art65_par1">arts. 65, §§ 1º</span> e <span xlink:href="urn:lex:br:senado.federal:resolucao:1970-11-27;93!art65_par2">2º, do Regimento Interno do Senado Federal</span>, e 13 do Regimento Interno da Câmara dos Deputados.</p>
+            
+          </Paragrafo><Paragrafo id="art4_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>A estrutura de apoio para funcionamento da liderança ficará a cargo da Casa a que pertencer o parlamentar.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>Aos Líderes, além de outras atribuições regimentais, compete a indicação dos representantes de seu Partido nas Comissões.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>Ao Líder é lícito usar da palavra, uma única vez, em qualquer fase da sessão, pelo prazo máximo de 5 (cinco) minutos, para comunicação urgente.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>Em caráter preferencial e independentemente de inscrição, poderá o Líder discutir matéria e encaminhar votação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>Ausente ou impedido o Líder, as suas atribuições serão exercidas pelo Vice-Líder.</p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>DAS COMISSÕES MISTAS</NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>Os membros das Comissões Mistas do Congresso Nacional serão designados pelo Presidente do Senado mediante indicação das lideranças.</p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Se os Líderes não fizerem a indicação, a escolha caberá ao Presidente.</p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>O calendário para a tramitação de matéria sujeita ao exame das Comissões Mistas deverá constar das Ordens do Dia do Senado e da Câmara dos Deputados.</p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>As Comissões Mistas, ressalvado o disposto no parágrafo único do art. 21, no art. 90 e no § 2º do art. 104, compor-se-ão de 11 (onze) Senadores e 11 (onze) Deputados, obedecido o critério da proporcionalidade partidária, incluindo-se sempre um representante da Minoria, se a proporcionalidade não lhe der representação.</p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Os Líderes poderão indicar substitutos nas Comissões Mistas, mediante ofício ao Presidente do Senado, que fará a respectiva designação.</p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>As Comissões Mistas reunir-se-ão dentro de 48 (quarenta e oito) horas de sua constituição, sob a presidência do mais idoso de seus componentes, para a eleição do Presidente e do Vice-Presidente, sendo, em seguida, designado, pelo Presidente eleito, um funcionário do Senado Federal ou da Câmara dos Deputados para secretariá-la.</p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Ao Presidente da Comissão Mista compete designar o Relator da matéria sujeita ao seu exame.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10-1">
+            
+            
+            <Rotulo>Art. 10-A.</Rotulo>
+            
+            <Caput id="art10-1_cpt">
+            
+            
+            
+            <p>O número de membros das comissões mistas estabelecido neste Regimento, nas resoluções que o integram e no respectivo ato de criação é acrescido de mais uma vaga na composição destinada a cada uma das Casas do Congresso Nacional, que será preenchida em rodízio, exclusivamente, pelas bancadas minoritárias que não alcancem, no cálculo da proporcionalidade partidária, número suficiente para participarem das referidas comissões.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10-2">
+            
+            
+            <Rotulo>Art. 10-B.</Rotulo>
+            
+            <Caput id="art10-2_cpt">
+            
+            
+            
+            <p>As Comissões Mistas Especiais, criadas por determinação constitucional, poderão ter membros suplentes, Deputados e Senadores, por designação do Presidente do Senado Federal, em número não superior à metade de sua composição.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>Perante a Comissão, no prazo de 8 (oito) dias a partir de sua instalação, o Congressista poderá apresentar emendas que deverão, em seguida, ser despachadas pelo Presidente.</p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art63-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Não serão aceitas emendas que contrariem o disposto no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art63">art. 63 da Constituição</span>.</p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Nas 24 (vinte e quatro) horas seguintes a partir do despacho do Presidente, o autor de emenda não aceita poderá, com apoiamento de 6 (seis) membros da Comissão, no mínimo, recorrer da decisão da Presidência para a Comissão.</p>
+            
+          </Paragrafo><Paragrafo id="art11_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>A Comissão decidirá por maioria simples em reunião que se realizará, por convocação do Presidente, imediatamente após o decurso do prazo fixado para interposição do recurso.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>Os trabalhos da Comissão Mista somente serão iniciados com a presença mínima do terço de sua composição.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>Apresentado o parecer, qualquer membro da Comissão Mista poderá discuti-lo pelo prazo máximo de 15 (quinze) minutos, uma única vez, permitido ao Relator usar da palavra, em último lugar, pelo prazo de 30 (trinta) minutos.</p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>O parecer do Relator será conclusivo e conterá, obrigatoriamente, a sua fundamentação.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>A Comissão Mista deliberará por maioria de votos, presente a maioria de seus membros, tendo o Presidente somente voto de desempate.</p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Nas deliberações da Comissão Mista, tomar-se-ão, em separado, os votos dos membros do Senado Federal e da Câmara dos Deputados, sempre que não haja paridade numérica em sua composição.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>O parecer da Comissão, sempre que possível, consignará o voto dos seus membros, em separado, vencido, com restrições ou pelas conclusões.</p>
+            
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Serão considerados favoráveis os votos pelas conclusões e os com restrições.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>O parecer da Comissão poderá concluir pela aprovação total ou parcial, ou rejeição da matéria, bem como pela apresentação de substitutivo, emendas e subemendas.</p>
+            
+          </Caput><Paragrafo id="art16_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>O parecer no sentido do arquivamento da proposição será considerado pela rejeição.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>A Comissão deverá sempre se pronunciar sobre o mérito da proposição principal e das emendas, ainda quando decidir pela inconstitucionalidade daquela.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>O parecer da Comissão deverá ser publicado no Diário do Congresso Nacional e em avulsos destinados à distribuição aos Congressistas.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>Das reuniões das Comissões Mistas lavrar-se-ão atas, que serão submetidas à sua apreciação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>Esgotado o prazo destinado aos trabalhos da Comissão, sem a apresentação do parecer, este deverá ser proferido oralmente, em plenário, por ocasião da discussão da matéria.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>As Comissões Parlamentares Mistas de Inquérito serão criadas em sessão conjunta, sendo automática a sua instituição se requerida por 1/3 (um terço) dos membros da Câmara dos Deputados mais 1/3 (um terço) dos membros do Senado Federal.</p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>As Comissões Parlamentares Mistas de Inquérito terão o número de membros fixado no ato da sua criação, devendo ser igual a participação de Deputados e Senadores, obedecido o princípio da proporcionalidade partidária.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Titulo><Titulo id="tit4">
+            
+            
+            <Rotulo>TÍTULO IV</Rotulo>
+            <NomeAgrupador>DA ORDEM DOS TRABALHOS</NomeAgrupador>
+            <Capitulo id="tit4_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>DAS SESSÕES EM GERAL</NomeAgrupador>
+            <Secao id="tit4_cap1_sec1">
+            
+            
+            <Rotulo>SEÇÃO I</Rotulo>
+            <NomeAgrupador>Disposições Preliminares</NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>A sessão conjunta terá a duração de 4 (quatro) horas.</p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Se o término do tempo da sessão ocorrer quando iniciada uma votação, esta será ultimada independentemente de pedido de prorrogação.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>Ouvido o Plenário, o prazo de duração da sessão poderá ser prorrogado:</p>
+            <Alinea id="art23_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>por proposta do Presidente;</p>
+            
+          </Alinea><Alinea id="art23_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>a requerimento de qualquer Congressista.</p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Se houver orador na tribuna, o Presidente o interromperá para consulta ao Plenário sobre a prorrogação.</p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>A prorrogação será sempre por prazo fixo que não poderá ser restringido, salvo por falta de matéria a tratar ou de número para o prosseguimento da sessão.</p>
+            
+          </Paragrafo><Paragrafo id="art23_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Antes de terminada uma prorrogação poderá ser requerida outra.</p>
+            
+          </Paragrafo><Paragrafo id="art23_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>O requerimento ou proposta de prorrogação não será discutido e nem terá encaminhada a sua votação.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>A sessão poderá ser suspensa por conveniência da ordem.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>A sessão poderá ser levantada, a qualquer momento, por motivo de falecimento de Congressista ou de Chefe de um dos Poderes da República.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>No recinto das sessões, somente serão admitidos os Congressistas, funcionários em serviço no plenário e, na bancada respectiva, os representantes da imprensa credenciados junto ao Poder Legislativo.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>As sessões serão públicas, podendo ser secretas se assim o deliberar o Plenário, mediante proposta da Presidência ou de Líder, prefixando-se-lhes a data.</p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A finalidade da sessão secreta deverá figurar expressamente na proposta, mas não será divulgada.</p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Para a apreciação da proposta, o Congresso funcionará secretamente.</p>
+            
+          </Paragrafo><Paragrafo id="art27_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Na discussão da proposta e no encaminhamento da votação, poderão usar da palavra 4 (quatro) oradores, em grupo de 2 (dois) membros de cada Casa, preferentemente de partidos diversos, pelo prazo de 10 (dez) minutos na discussão, reduzido para 5 (cinco) minutos no encaminhamento da votação.</p>
+            
+          </Paragrafo><Paragrafo id="art27_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>Na sessão secreta, antes de se iniciarem os trabalhos, o Presidente determinará a saída, do plenário, tribunas, galerias e demais dependências, de todas as pessoas estranhas, inclusive funcionários.</p>
+            
+          </Paragrafo><Paragrafo id="art27_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>A ata da sessão secreta será redigida pelo 2º Secretário, submetida ao Plenário, com qualquer número, antes de levantada a sessão, assinada pelos membros da Mesa e encerrada em invólucro lacrado, datado e rubricado pelos 1º e 2º Secretários e recolhida ao arquivo.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>As sessões somente serão abertas com a presença mínima de 1/6 (um sexto) da composição de cada Casa do Congresso.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>À hora do início da sessão, o Presidente e os demais membros da Mesa ocuparão os respectivos lugares; havendo número regimental, será anunciada a abertura dos trabalhos.</p>
+            
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Não havendo número, o Presidente aguardará, pelo prazo máximo de 30 (trinta) minutos, a complementação do quorum; decorrido o prazo e persistindo a falta de número, a sessão não se realizará.</p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>No curso da sessão, verificada a presença de Senadores e de Deputados em número inferior ao mínimo fixado no art. 28, o Presidente encerrará os trabalhos, ex-officio ou por provocação de qualquer Congressista.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>Uma vez aberta a sessão, o 1º Secretário procederá à leitura do expediente.</p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A ata da sessão, salvo o disposto no § 5º do art. 27, será a constante do Diário do Congresso Nacional, na qual serão consignados, com fidelidade, pelo apanhamento taquigráfico, os debates, as deliberações tomadas e demais ocorrências.</p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>As questões de ordem e pedidos de retificação sobre a ata serão decididos pelo Presidente.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>A primeira meia hora da sessão será destinada aos oradores inscritos que poderão usar da palavra pelo prazo de 5 (cinco) minutos improrrogáveis.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap1_sec2">
+            
+            
+            <Rotulo>SEÇÃO II</Rotulo>
+            <NomeAgrupador>Da Ordem do Dia</NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>Terminado o expediente, passar-se-á à Ordem do Dia.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>Os avulsos das matérias constantes da Ordem do Dia serão distribuídos aos Congressistas com a antecedência mínima de 24 (vinte e quatro) horas.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>Na organização da Ordem do Dia, as proposições em votação precederão as em discussão.</p>
+            
+          </Caput><Paragrafo id="art34_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>A inversão da Ordem do Dia poderá ser autorizada pelo Plenário, por proposta da Presidência ou a requerimento de Líder.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>Na Ordem do Dia, estando o projeto em fase de votação, e não havendo número para as deliberações, passar-se-á à matéria seguinte em discussão.</p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Esgotada a matéria em discussão, e persistindo a falta de quorum para as deliberações, a Presidência poderá suspender a sessão, por prazo não superior a 30 (trinta) minutos, ou conceder a palavra a Congressista que dela queira fazer uso, salvo o disposto no § 2º do art. 29.</p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Sobrevindo a existência de número para as deliberações, voltar-se-á à matéria em votação, interrompendo-se o orador que estiver na tribuna.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit4_cap1_sec3">
+            
+            
+            <Rotulo>SEÇÃO III</Rotulo>
+            <NomeAgrupador>Da Apreciação das Matérias</NomeAgrupador>
+            <Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>A apreciação das matérias será feita em um só turno de discussão e votação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>A discussão da proposição principal, das emendas e subemendas será feita em conjunto.</p>
+            
+          </Caput><Paragrafo id="art37_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Arguida, pela Comissão Mista, a inconstitucionalidade da proposição, a discussão e votação dessa preliminar antecederão a apreciação da matéria.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>Na discussão, os oradores falarão na ordem de inscrição, pelo prazo máximo de 20 (vinte) minutos, concedendo-se a palavra, de preferência, alternadamente, a Congressistas favoráveis e contrários à matéria.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>A discussão se encerrará após falar o último orador inscrito. Se, após o término do tempo da sessão, ainda houver inscrições a atender, será convocada outra, ao fim da qual estará a discussão automaticamente encerrada.</p>
+            
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A discussão poderá ser encerrada a requerimento escrito de Líder ou de 10 (dez) membros de cada Casa, após falarem, no mínimo, 4 (quatro) Senadores e 6 (seis) Deputados.</p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Após falar o último orador inscrito, ou antes da votação do requerimento mencionado no § 1º, ao Relator é lícito usar da palavra pelo prazo máximo de 20 (vinte) minutos.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>Não será admitido requerimento de adiamento de discussão, podendo, entretanto, ser adiada a votação, no máximo por 48 (quarenta e oito) horas, a requerimento de Líder, desde que não seja prejudicada a apreciação da matéria no prazo constitucional.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>O requerimento apresentado em sessão conjunta não admitirá discussão, podendo ter sua votação encaminhada por 2 (dois) membros de cada Casa, de preferência um favorável e um contrário, pelo prazo máximo de 5 (cinco) minutos cada um.</p>
+            
+          </Caput><Paragrafo id="art41_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>O requerimento sobre proposição constante da Ordem do Dia deverá ser apresentado logo após ser anunciada a matéria a que se referir.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>A retirada de qualquer proposição só poderá ser requerida por seu autor e dependerá de despacho da Presidência.</p>
+            
+          </Caput><Paragrafo id="art42_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Competirá ao Plenário decidir sobre a retirada de proposição com a votação iniciada.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>Nas deliberações, os votos da Câmara dos Deputados e do Senado Federal serão sempre computados separadamente.</p>
+            
+          </Caput><Paragrafo id="art43_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>O voto contrário de uma das Casas importará a rejeição da matéria.</p>
+            
+          </Paragrafo><Paragrafo id="art43_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>A votação começará pela Câmara dos Deputados. Tratando-se, porém, de projeto de lei vetado, de iniciativa de Senadores, a votação começará pelo Senado.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit4_cap1_sec4">
+            
+            
+            <Rotulo>SEÇÃO IV</Rotulo>
+            <NomeAgrupador>Das Modalidades de Votação</NomeAgrupador>
+            <Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>As votações poderão ser realizadas pelos processos simbólico, nominal e secreto.</p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>As votações serão feitas pelo processo simbólico, salvo nos casos em que seja exigido quorum especial ou deliberação do Plenário, mediante requerimento de Líder ou de 1/6 (um sexto) de Senadores ou de Deputados.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>Na votação pelo processo simbólico, os Congressistas que aprovarem a matéria deverão permanecer sentados, levantando-se os que votarem pela rejeição. O pronunciamento dos Líderes representará o voto de seus liderados presentes, permitida a declaração de voto.</p>
+            
+          </Caput><Paragrafo id="art45_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Proclamado o resultado da votação de cada Casa, poderá ser feita sua verificação a requerimento de Líder, de 5 (cinco) Senadores ou de 20 (vinte) Deputados.</p>
+            
+          </Paragrafo><Paragrafo id="art45_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Na verificação, proceder-se-á à contagem, por bancada, dos votos favoráveis e contrários, anotando os Secretários o resultado de cada fila, a não ser que o requerimento consigne o pedido de imediata votação nominal.</p>
+            
+          </Paragrafo><Paragrafo id="art45_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Procedida a verificação de votação, e havendo número legal, não será permitida nova verificação antes do decurso de 1 (uma) hora.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+              <p>O processo nominal, que se utilizará nos casos em que seja exigido quorum especial de votação ou por deliberação do Plenário, ou, ainda, quando houver pedido de verificação, far-se-á pelo painel eletrônico ou, no caso de vetos, por cédula de votação que permita a apuração eletrônica.</p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>(revogado pela Resolução nº 1, de 2015-CN).</p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>(revogado pela Resolução nº 1, de 2015-CN).</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>Na votação secreta, o Congressista chamado receberá uma sobrecarta opaca, de cor e tamanho uniformes, e se dirigirá a uma cabina indevassável, colocada no recinto, na qual devem encontrar-se cédulas para a votação. Após colocar na sobrecarta a cédula escolhida, lançá-la-á na urna, que se encontrará no recinto, sob a guarda de funcionários previamente designados.</p>
+            
+          </Caput><Paragrafo id="art47_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Conduzida a urna à Mesa, somente votarão os componentes desta.</p>
+            
+          </Paragrafo><Paragrafo id="art47_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>A apuração será feita pela Mesa, cujo Presidente convidará, para escrutinadores, um Senador e um Deputado, de preferência filiados a partidos políticos diversos.</p>
+            
+          </Paragrafo><Paragrafo id="art47_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Os escrutinadores abrirão as sobrecartas e entregarão as cédulas aos Secretários, que contarão os votos apurados, sendo o resultado da votação anunciado pelo Presidente.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>Presente à sessão, o Congressista somente poderá deixar de votar em assunto de interesse pessoal, devendo comunicar à Mesa seu impedimento, computado seu comparecimento para efeito de quorum.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap1_sec5">
+            
+            
+            <Rotulo>SEÇÃO V</Rotulo>
+            <NomeAgrupador>Do Processamento da Votação</NomeAgrupador>
+            <Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>Encerrada a discussão, passar-se-á, imediatamente, à votação da matéria, podendo encaminhá-la 4 (quatro) Senadores e 4 (quatro) Deputados, de preferência de partidos diferentes, pelo prazo de 5 (cinco) minutos cada um.</p>
+            
+          </Caput><Paragrafo id="art49_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Votar-se-á, em primeiro lugar, o projeto, ressalvados os destaques dele requeridos e as emendas.</p>
+            
+          </Paragrafo><Paragrafo id="art49_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>As emendas serão votadas em grupos, conforme tenham parecer favorável ou contrário, ressalvados os destaques e incluídas, entre as de parecer favorável, as da Comissão. Das destacadas, serão votadas inicialmente as supressivas, seguindo-se-lhes as substitutivas, as modificativas e as aditivas.</p>
+            
+          </Paragrafo><Paragrafo id="art49_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>As emendas com subemendas serão votadas uma a uma, salvo deliberação em contrário, sendo que as subemendas substitutivas ou supressivas serão votadas antes das respectivas emendas.</p>
+            
+          </Paragrafo><Paragrafo id="art49_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>Havendo substitutivo, terá preferência sobre o projeto se de autoria da Comissão, ou se dela houver recebido parecer favorável, salvo deliberação em contrário.</p>
+            
+          </Paragrafo><Paragrafo id="art49_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>Quando o projeto tiver preferência de votação sobre o substitutivo, é lícito destacar parte deste para incluir naquele; recaindo a preferência sobre o substitutivo, poderão ser destacadas partes do projeto ou emendas.</p>
+            
+          </Paragrafo><Paragrafo id="art49_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>Aprovado o substitutivo, ficam prejudicados o projeto e as emendas, salvo o disposto no § 5º.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>Os requerimentos de preferência e de destaque, que deverão ser apresentados até ser anunciada a votação da matéria, só poderão ser formulados por Líder, não serão discutidos e não terão encaminhada sua votação.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap1_sec6">
+            
+            
+            <Rotulo>SEÇÃO VI</Rotulo>
+            <NomeAgrupador>Da Redação Final e dos Autógrafos</NomeAgrupador>
+            <Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>Concluída a votação, a matéria voltará à Comissão Mista para a redação final, ficando interrompida a sessão pelo tempo necessário à sua lavratura, podendo, entretanto, ser concedido à Comissão prazo máximo de 24 (vinte e quatro) horas para sua elaboração.</p>
+            
+          </Caput><Paragrafo id="art51_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Apresentada à Mesa, a redação final será lida e imediatamente submetida à discussão e votação.</p>
+            
+          </Paragrafo><Paragrafo id="art51_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Será dispensada a redação final se o projeto for aprovado sem emendas ou em substitutivo integral, e o texto considerado em condições de ser definitivamente aceito.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>Aprovado em definitivo, o texto do projeto será encaminhado, em autógrafos, ao Presidente da República para sanção.</p>
+            
+          </Caput><Paragrafo id="art52_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Tratando-se, porém, de matéria da competência exclusiva do Congresso Nacional, será promulgada pelo Presidente do Senado.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit4_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>DAS SESSÕES SOLENES</NomeAgrupador>
+            <Secao id="tit4_cap2_sec1">
+            
+            
+            <Rotulo>SEÇÃO I</Rotulo>
+            <NomeAgrupador>Normas Gerais</NomeAgrupador>
+            <Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>Nas sessões solenes, integrarão a Mesa o Presidente da Câmara e, mediante convite, o Presidente do Supremo Tribunal Federal. No recinto serão reservados lugares às altas autoridades civis, militares, eclesiásticas e diplomáticas, especialmente convidadas.</p>
+            
+          </Caput><Paragrafo id="art53_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>As sessões solenes realizar-se-ão com qualquer número.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>Composta a Mesa, o Presidente declarará aberta a sessão e o fim para que foi convocada.</p>
+            
+          </Caput><Paragrafo id="art54_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Nas sessões solenes não haverá expediente.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>Nas sessões solenes, somente poderão usar da palavra um Senador e um Deputado, de preferência de partidos diferentes, e previamente designados pelas respectivas Câmaras.</p>
+            
+          </Caput><Paragrafo id="art55_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Na inauguração de sessão legislativa e na posse do Presidente e do Vice-Presidente da República, não haverá oradores.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>Nas sessões solenes, não serão admitidas questões de ordem.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap2_sec2">
+            
+            
+            <Rotulo>SEÇÃO II</Rotulo>
+            <NomeAgrupador>Da Inauguração de Sessão Legislativa</NomeAgrupador>
+            <Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>Uma vez composta a Mesa e declarada aberta a sessão, o Presidente proclamará inaugurados os trabalhos do Congresso Nacional e anunciará a presença, na Casa, do enviado do Presidente da República, portador da Mensagem, determinando seja ele conduzido até a Mesa, pelos Diretores das Secretarias do Senado e da Câmara dos Deputados, sem atravessar o plenário.</p>
+            
+          </Caput><Paragrafo id="art57_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Entregue a Mensagem, o enviado do Presidente da República se retirará, devendo ser acompanhado até a porta, pelos referidos Diretores, e, no caso de pretender assistir à sessão, conduzido a lugar previamente reservado.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>De posse da Mensagem, o Presidente mandará proceder a sua leitura pelo 1º Secretário, fazendo distribuir exemplares impressos, se houver, aos Congressistas.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>Finda a leitura da Mensagem, será encerrada a sessão.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap2_sec3">
+            
+            
+            <Rotulo>SEÇÃO III</Rotulo>
+            <NomeAgrupador>Da Posse do Presidente e do Vice-Presidente da República</NomeAgrupador>
+            <Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>Aberta a sessão, o Presidente designará 5 (cinco) Senadores e 5 (cinco) Deputados para comporem a comissão incumbida de receber os empossados à entrada principal e conduzi-los ao Salão de Honra, suspendendo-a em seguida.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>Reaberta a sessão, o Presidente e o Vice-Presidente eleitos serão introduzidos no plenário, pela mesma comissão anteriormente designada, indo ocupar os lugares, respectivamente, à direita e à esquerda do Presidente da Mesa.</p>
+            
+          </Caput><Paragrafo id="art61_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Os espectadores, inclusive os membros da Mesa, conservar-se-ão de pé.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art78-->
+            
+            
+            <p>O Presidente da Mesa anunciará, em seguida, que o Presidente da República eleito irá prestar o compromisso determinado no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art78">art. 78 da Constituição</span>, solicitando aos presentes que permaneçam de pé, durante o ato.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>Cumprido o disposto no artigo anterior, o Presidente da Mesa proclamará empossado o Presidente da República.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>Observadas as mesmas formalidades dos artigos anteriores, será, em seguida, empossado o Vice-Presidente da República.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>Após a prestação dos compromissos, o 1º Secretário procederá à leitura do termo de posse, que será assinado pelos empossados e pelos membros da Mesa.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            
+            
+            
+            <p>Ao Presidente da República poderá ser concedida a palavra para se dirigir ao Congresso Nacional e à Nação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>Finda a solenidade, a comissão de recepção conduzirá o Presidente e o Vice-Presidente da República a local previamente designado, encerrando-se a sessão.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap2_sec4">
+            
+            
+            <Rotulo>SEÇÃO IV</Rotulo>
+            <NomeAgrupador>Da Recepção a Chefe de Estado Estrangeiro</NomeAgrupador>
+            <Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>Aberta a sessão, o Presidente designará 3 (três) Senadores e 3 (três) Deputados para comporem a comissão incumbida de receber o visitante à entrada principal e conduzi-lo ao Salão de Honra, suspendendo, em seguida, a sessão.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>Reaberta a sessão, o Chefe de Estado será introduzido no plenário pela comissão anteriormente designada, indo ocupar na Mesa o lugar à direita do Presidente.</p>
+            
+          </Caput><Paragrafo id="art69_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Os espectadores, inclusive os membros da Mesa, com exceção do Presidente, conservar-se-ão de pé.</p>
+            
+          </Paragrafo><Paragrafo id="art69_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Em seguida, será dada a palavra aos oradores.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>Se o visitante quiser usar da palavra, deverá fazê-lo após os oradores da sessão.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>Finda a solenidade, a Comissão de Recepção conduzirá o visitante a lugar previamente designado, encerrando-se a sessão.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit4_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>DAS MATÉRIAS LEGISLATIVAS</NomeAgrupador>
+            <Secao id="tit4_cap3_sec1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>SEÇÃO I</Rotulo>
+            <NomeAgrupador>Da Proposta de Emenda à <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span></NomeAgrupador>
+            <Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>Aprovada a proposta em segundo turno, as Mesas da Câmara dos Deputados e o Senado Federal, em sessão conjunta, solene, promulgarão a emenda à <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> com o respectivo número de ordem.</p>
+            
+          </Caput><Paragrafo id="art85_par1u">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec2">
+            
+            
+            <Rotulo>SEÇÃO II</Rotulo>
+            <NomeAgrupador>Do Projeto de Lei de Iniciativa do Presidente da República</NomeAgrupador>
+            <Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art88">
+            
+            
+            <Rotulo>Art. 88.</Rotulo>
+            
+            <Caput id="art88_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec3">
+            
+            
+            <Rotulo>SEÇÃO III</Rotulo>
+            <NomeAgrupador>Do Projeto de Lei Orçamentária</NomeAgrupador>
+            <Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            
+            
+            
+            <p>A Mensagem do Presidente da República encaminhando projeto de lei orçamentária será recebida e lida em sessão conjunta, especialmente convocada para esse fim, a realizar-se dentro de 48 (quarenta e oito) horas de sua entrega ao Presidente do Senado.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art90">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput id="art90_cpt">
+            
+            
+            
+            <p>O projeto de lei orçamentária será apreciado por uma Comissão Mista que contará com a colaboração das Comissões Permanentes da Câmara dos Deputados e do Senado Federal.</p>
+            
+          </Caput><Paragrafo id="art90_par1">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1--><!--Link: urn:lex:br:congresso.nacional:resolucao:1993;1-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>, com a redação dada pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1993;1">Resolução nº 1, de 1993-CN</span>).</p>
+            
+          </Paragrafo><Paragrafo id="art90_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>O suplente só participará dos trabalhos da Comissão Mista na ausência ou impedimento de membro titular.</p>
+            
+          </Paragrafo><Paragrafo id="art90_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>A participação das Comissões Permanentes, no estudo da matéria orçamentária, obedecerá às seguintes normas:</p>
+            <Alinea id="art90_par3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>as Comissões Permanentes interessadas, uma vez constituída a Comissão Mista, deverão solicitar ao Presidente desta lhe seja remetido o texto do projeto de lei orçamentária;</p>
+            
+          </Alinea><Alinea id="art90_par3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>a Comissão Mista, ao encaminhar o projeto à solicitante, estabelecerá prazos e normas a serem obedecidos na elaboração de seu parecer, o qual deverá abranger, exclusivamente, as partes que versarem sobre a matéria de sua competência específica;</p>
+            
+          </Alinea><Alinea id="art90_par3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>a Comissão Permanente emitirá parecer circunstanciado sobre o anexo que lhe for distribuído e elaborará estudo comparativo dos programas e dotações propostas com a prestação de contas do exercício anterior e, sempre que possível, com a execução da lei orçamentária em vigor;</p>
+            
+          </Alinea><Alinea id="art90_par3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>o parecer da Comissão Permanente será encaminhado, pelo Presidente da Comissão Mista, ao Relator respectivo para que sirva como subsídio ao estudo da matéria;</p>
+            
+          </Alinea><Alinea id="art90_par3_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>o parecer do Relator da Comissão Mista deverá fazer referência expressa ao ponto de vista expendido pela Comissão Permanente;</p>
+            
+          </Alinea><Alinea id="art90_par3_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>por deliberação da maioria de seus membros, as Comissões Permanentes do Senado e da Câmara dos Deputados, que tiverem competência coincidente, poderão realizar reuniões conjuntas sob a direção alternada dos respectivos Presidentes, podendo concluir pela apresentação de parecer único; e</p>
+            
+          </Alinea><Alinea id="art90_par3_ali7">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:2001;1-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>os pareceres das Comissões Permanentes, que concluírem pela apresentação de emendas, deverão ser encaminhados à Comissão Mista dentro do prazo estabelecido na <span xlink:href="urn:lex:br:congresso.nacional:resolucao:2001;1">Resolução nº 1, de 2001-CN</span>.</p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art90_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>As deliberações da Comissão Mista iniciar-se-ão pelos representantes da Câmara dos Deputados, sendo que o voto contrário da maioria dos representantes de uma das Casas importará a rejeição da matéria.</p>
+            
+          </Paragrafo><Paragrafo id="art90_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>Na eleição do Presidente e do Vice-Presidente da Comissão, não se aplicam as disposições do § 4º.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art91">
+            
+            
+            <Rotulo>Art. 91.</Rotulo>
+            
+            <Caput id="art91_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art92">
+            
+            
+            <Rotulo>Art. 92.</Rotulo>
+            
+            <Caput id="art92_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art93">
+            
+            
+            <Rotulo>Art. 93.</Rotulo>
+            
+            <Caput id="art93_cpt">
+            
+            
+            
+            <p>O projeto será distribuído em avulsos nos 5 (cinco) dias seguintes à sua leitura.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art94">
+            
+            
+            <Rotulo>Art. 94.</Rotulo>
+            
+            <Caput id="art94_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art95">
+            
+            
+            <Rotulo>Art. 95.</Rotulo>
+            
+            <Caput id="art95_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art96">
+            
+            
+            <Rotulo>Art. 96.</Rotulo>
+            
+            <Caput id="art96_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art97">
+            
+            
+            <Rotulo>Art. 97.</Rotulo>
+            
+            <Caput id="art97_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art98">
+            
+            
+            <Rotulo>Art. 98.</Rotulo>
+            
+            <Caput id="art98_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art99">
+            
+            
+            <Rotulo>Art. 99.</Rotulo>
+            
+            <Caput id="art99_cpt">
+            
+            
+            
+            <p>As emendas pendentes de decisão do Plenário serão discutidas e votadas em grupos, conforme tenham parecer favorável ou contrário, ressalvados os destaques.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art100">
+            
+            
+            <Rotulo>Art. 100.</Rotulo>
+            
+            <Caput id="art100_cpt">
+            
+            
+            
+            <p>Se a Comissão, no prazo fixado, não apresentar o seu parecer, o Presidente do Senado, feita a publicação das emendas, convocará sessão conjunta para a apreciação da matéria, quando designará Relator que proferirá parecer oral.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art101">
+            
+            
+            <Rotulo>Art. 101.</Rotulo>
+            
+            <Caput id="art101_cpt">
+            <!--Link: urn:lex:br:congresso.nacional:resolucao:1991;1-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:congresso.nacional:resolucao:1991;1">Resolução nº 1, de 1991-CN</span>).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art102">
+            
+            
+            <Rotulo>Art. 102.</Rotulo>
+            
+            <Caput id="art102_cpt">
+            
+            
+            
+            <p>Na tramitação do projeto de lei orçamentária anual, além das disposições desta Seção, serão aplicadas, no que couber, as normas estabelecidas neste Regimento para os demais projetos de lei.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art103">
+            
+            
+            <Rotulo>Art. 103.</Rotulo>
+            
+            <Caput id="art103_cpt">
+            
+            
+            
+            <p>À tramitação de projetos de orçamento plurianual de investimentos aplicar-se-ão, no que couber, as normas previstas nesta Seção.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec4">
+            
+            
+            <Rotulo>SEÇÃO IV</Rotulo>
+            <NomeAgrupador>Do Veto</NomeAgrupador>
+            <Artigo id="art104">
+            
+            
+            <Rotulo>Art. 104.</Rotulo>
+            
+            <Caput id="art104_cpt">
+            
+            
+            
+              <p>(revogado pela Resolução nº 1, de 2015-CN).</p>
+            
+          </Caput><Paragrafo id="art104_par1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art66_par4-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>(dispositivo reordenado em razão do Ato da Mesa do Congresso Nacional nº 1, de 2015)</p>
+            
+          </Paragrafo><Paragrafo id="art104_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>(revogado pela Resolução nº 1, de 2015-CN).</p>
+            
+          </Paragrafo>
+            </Artigo><Artigo id="art104-1">
+              
+              
+              <Rotulo>Art. 104-A.</Rotulo>
+              
+              <Caput id="art104-1_cpt">
+                
+                
+                
+                <p>O prazo de que trata o § 4º do art. 66 da Constituição Federal será contado da protocolização do veto na Presidência do Senado Federal.</p>
+                
+              </Caput>
+            </Artigo><Artigo id="art105">
+            
+            
+            <Rotulo>Art. 105.</Rotulo>
+            
+            <Caput id="art105_cpt">
+            
+            
+            
+              <p>(revogado pela Resolução nº 1, de 2015-CN).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art106">
+            
+            
+            <Rotulo>Art. 106.</Rotulo>
+            
+            <Caput id="art106_cpt">
+            
+            
+            
+              <p>Distribuídos os avulsos com o texto do projeto, com a indicação das partes vetadas e sancionadas, os vetos serão incluídos em Ordem do Dia.</p>
+            
+          </Caput><Paragrafo id="art106_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A apreciação dos vetos ocorrerá em sessões do Congresso Nacional a serem convocadas para a terceira terça-feira de cada mês, impreterivelmente.</p>
+            
+          </Paragrafo><Paragrafo id="art106_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Se por qualquer motivo não ocorrer a sessão referida no § 1º, será convocada sessão conjunta para a terça-feira seguinte.</p>
+            
+          </Paragrafo><Paragrafo id="art106_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>Após o esgotamento do prazo constitucional, fica sobrestada a pauta das sessões conjuntas do Congresso Nacional para qualquer outra deliberação, até a votação final do veto.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art106-1">
+            
+            
+            <Rotulo>Art. 106-A.</Rotulo>
+            
+            <Caput id="art106-1_cpt">
+              <p>A discussão dos vetos constantes da pauta far-se-á em globo.</p>
+              
+            </Caput><Paragrafo id="art106-1_par1">
+              
+              
+              <Rotulo>§ 1º</Rotulo>
+              <p>Na discussão, conceder-se-á a palavra, por 5 (cinco) minutos, aos oradores inscritos.</p>
+              
+            </Paragrafo><Paragrafo id="art106-1_par2">
+              
+              
+              <Rotulo>§ 2º</Rotulo>
+              <p>Após a discussão por 4 (quatro) Senadores e 6 (seis) Deputados, iniciar-se-á o processo de votação por cédula, podendo os líderes orientar suas bancadas por até 1 (um) minuto.</p>
+              
+            </Paragrafo>
+          </Artigo><Artigo id="art106-2">
+            
+            
+            <Rotulo>Art. 106-B.</Rotulo>
+            
+            <Caput id="art106-2_cpt">
+              
+              
+              
+              <p>A votação do veto será nominal e ocorrerá por meio de cédula com identificação do parlamentar, nos termos do artigo 46, da qual constarão todos os vetos incluídos na Ordem do Dia, agrupados por projeto.</p>
+              
+            </Caput></Artigo><Artigo id="art106-3">
+            
+            
+            <Rotulo>Art. 106-C.</Rotulo>
+            
+            <Caput id="art106-3_cpt">
+              
+              
+              
+              <p>Será considerado em obstrução em relação ao item da cédula que estiver em branco o parlamentar cujo líder nesse sentido houver se pronunciado, não sendo, nesse caso, sua presença computada para efeito de quorum.</p>
+              
+            </Caput>
+          </Artigo><Artigo id="art106-1">
+            
+            
+            <Rotulo>Art. 106-D.</Rotulo>
+            
+            <Caput id="art106-4_cpt">
+              
+              
+              
+              <p>Até o início da Ordem do Dia, poderá ser apresentado destaque de dispositivos individuais ou conexos para apreciação no painel eletrônico, a requerimento de líderes, que independerá de aprovação pelo Plenário, observada a seguinte proporcionalidade:</p>
+              <Inciso id="art106-4_cpt_inc1">
+                <Rotulo>I –</Rotulo>
+                <p>na Câmara dos Deputados:</p>
+                <Alinea id="art106-4_cpt_inc1_ali1">
+                  <Rotulo>a)</Rotulo>
+                  <p>de 5 (cinco) até 24 (vinte e quatro) Deputados: 1 (um) destaque por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc1_ali2">
+                  <Rotulo>b)</Rotulo>
+                  <p>de 25 (vinte e cinco) até 49 (quarenta e nove) Deputados: 2 (dois) destaques por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc1_ali3">
+                  <Rotulo>c)</Rotulo>
+                  <p>de 50 (cinquenta) até 74 (setenta e quatro) Deputados: 3 (três) destaques por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc1_ali4">
+                  <Rotulo>d)</Rotulo>
+                  <p>75 (setenta e cinco) ou mais Deputados: 4 (quatro) destaques por cédula;</p>
+                </Alinea>
+              </Inciso>
+              <Inciso id="art106-4_cpt_inc2">
+                <Rotulo>II –</Rotulo>
+                <p>no Senado Federal:</p>
+                <Alinea id="art106-4_cpt_inc2_ali1">
+                  <Rotulo>a)</Rotulo>
+                  <p>de 3 (três) até 5 (cinco) Senadores: 1 (um) destaque por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc2_ali2">
+                  <Rotulo>b)</Rotulo>
+                  <p>de 6 (seis) até 11 (onze) Senadores: 2 (dois) destaques por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc2_ali3">
+                  <Rotulo>c)</Rotulo>
+                  <p>de 12 (doze) até 17 (dezessete) Senadores: 3 (três) destaques por cédula;</p>
+                </Alinea>
+                <Alinea id="art106-4_cpt_inc2ali4">
+                  <Rotulo>d)</Rotulo>
+                  <p>18 (dezoito) ou mais Senadores: 4 (quatro) destaques por cédula.</p>
+                </Alinea>
+              </Inciso>
+              
+            </Caput><Paragrafo id="art106-4_par1">
+              
+              
+              <Rotulo>§ 1º</Rotulo>
+              <p>Quando a cédula contiver mais de 8 (oito) projetos de lei ou mais de 80 (oitenta) dispositivos será admitido quantitativo de destaques até o dobro do previsto.</p>
+              
+            </Paragrafo><Paragrafo id="art106-4_par2">
+              
+              
+              <Rotulo>§ 2º</Rotulo>
+              <p>É inadmissível para efeito do constante no caput a sobreposição de lideranças, sendo admissível, contudo, a combinação.</p>
+              
+            </Paragrafo><Paragrafo id="art106-4_par3">
+              
+              
+              <Rotulo>§ 3º</Rotulo>
+              <p>Para votação no painel eletrônico de cada matéria vetada, haverá encaminhamento, por 5 (cinco) minutos, de 2 (dois) Senadores e 2 (dois) Deputados, preferencialmente de forma alternada entre favoráveis e contrários, cabível, em qualquer caso, a orientação prevista no § 2º do art. 106-A.</p>
+              
+            </Paragrafo>
+          </Artigo><Artigo id="art107">
+            
+            
+            <Rotulo>Art. 107.</Rotulo>
+            
+            <Caput id="art107_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art108">
+            
+            
+            <Rotulo>Art. 108.</Rotulo>
+            
+            <Caput id="art108_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec5">
+            
+            
+            <Rotulo>SEÇÃO V</Rotulo>
+            <NomeAgrupador>Dos Decretos-Leis</NomeAgrupador>
+            <Artigo id="art109">
+            
+            
+            <Rotulo>Art. 109.</Rotulo>
+            
+            <Caput id="art109_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art110">
+            
+            
+            <Rotulo>Art. 110.</Rotulo>
+            
+            <Caput id="art110_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art111">
+            
+            
+            <Rotulo>Art. 111.</Rotulo>
+            
+            <Caput id="art111_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art112">
+            
+            
+            <Rotulo>Art. 112.</Rotulo>
+            
+            <Caput id="art112_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec6">
+            
+            
+            <Rotulo>SEÇÃO VI</Rotulo>
+            <NomeAgrupador>Das Impugnações do Tribunal de Contas</NomeAgrupador>
+            <Artigo id="art113">
+            
+            
+            <Rotulo>Art. 113.</Rotulo>
+            
+            <Caput id="art113_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art114">
+            
+            
+            <Rotulo>Art. 114.</Rotulo>
+            
+            <Caput id="art114_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art115">
+            
+            
+            <Rotulo>Art. 115.</Rotulo>
+            
+            <Caput id="art115_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec7">
+            
+            
+            <Rotulo>SEÇÃO VII</Rotulo>
+            <NomeAgrupador>Da Delegação Legislativa</NomeAgrupador>
+            <Artigo id="art116">
+            
+            
+            <Rotulo>Art. 116.</Rotulo>
+            
+            <Caput id="art116_cpt">
+            
+            
+            
+            <p>O Congresso Nacional poderá delegar poderes para elaboração legislativa ao Presidente da República.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art117">
+            
+            
+            <Rotulo>Art. 117.</Rotulo>
+            
+            <Caput id="art117_cpt">
+            
+            
+            
+            <p>Não poderão ser objeto de delegação os atos da competência exclusiva do Congresso Nacional e os da competência privativa da Câmara dos Deputados ou do Senado Federal nem a legislação sobre:</p>
+            <Inciso id="art117_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>organização dos juízos e tribunais e as garantias da magistratura;</p>
+            
+          </Inciso><Inciso id="art117_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>a nacionalidade, a cidadania, os direitos públicos e o direito eleitoral; e</p>
+            
+          </Inciso><Inciso id="art117_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>o sistema monetário.</p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art118">
+            
+            
+            <Rotulo>Art. 118.</Rotulo>
+            
+            <Caput id="art118_cpt">
+            
+            
+            
+            <p>A delegação poderá ser solicitada pelo Presidente da República.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art119">
+            
+            
+            <Rotulo>Art. 119.</Rotulo>
+            
+            <Caput id="art119_cpt">
+            
+            
+            
+            <p>A proposta será remetida ou apresentada ao Presidente do Senado Federal, que convocará sessão conjunta, a ser realizada dentro de 72 (setenta e duas) horas, para que o Congresso Nacional dela tome conhecimento.</p>
+            
+          </Caput><Paragrafo id="art119_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Na sessão de que trata este artigo, distribuída a matéria em avulsos, será constituída a Comissão Mista para emitir parecer sobre a proposta.</p>
+            
+          </Paragrafo><Paragrafo id="art119_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>A Comissão deverá concluir seu parecer pela apresentação de projeto de resolução que especificará o conteúdo da delegação, os termos para o seu exercício e fixará, também, prazo não superior a 45 (quarenta e cinco) dias para promulgação, publicação ou remessa do projeto elaborado, para apreciação pelo Congresso Nacional.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art120">
+            
+            
+            <Rotulo>Art. 120.</Rotulo>
+            
+            <Caput id="art120_cpt">
+            
+            
+            
+            <p>Publicado o parecer e distribuídos os avulsos, será convocada sessão conjunta para dentro de 5 (cinco) dias, destinada à discussão da matéria.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art121">
+            
+            
+            <Rotulo>Art. 121.</Rotulo>
+            
+            <Caput id="art121_cpt">
+            
+            
+            
+            <p>Encerrada a discussão, com emendas, a matéria voltará à Comissão, que terá o prazo de 8 (oito) dias para sobre elas emitir parecer.</p>
+            
+          </Caput><Paragrafo id="art121_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Publicado o parecer e distribuídos os avulsos, será convocada sessão conjunta para votação da matéria.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art122">
+            
+            
+            <Rotulo>Art. 122.</Rotulo>
+            
+            <Caput id="art122_cpt">
+            
+            
+            
+            <p>O projeto de resolução, uma vez aprovado, será promulgado dentro de 24 (vinte e quatro) horas, feita a comunicação ao Presidente da República, quando for o caso.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art123">
+            
+            
+            <Rotulo>Art. 123.</Rotulo>
+            
+            <Caput id="art123_cpt">
+            
+            
+            
+            <p>As leis delegadas, elaboradas pelo Presidente da República, irão à promulgação, salvo se a resolução do Congresso Nacional houver determinado votação do projeto pelo Plenário.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art124">
+            
+            
+            <Rotulo>Art. 124.</Rotulo>
+            
+            <Caput id="art124_cpt">
+            
+            
+            
+            <p>Dentro de 48 (quarenta e oito) horas do recebimento do projeto elaborado pelo Presidente da República, a Presidência do Senado remeterá a matéria à Comissão que tiver examinado a solicitação para, no prazo de 5 (cinco) dias, emitir seu parecer sobre a conformidade ou não do projeto com o conteúdo da delegação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art125">
+            
+            
+            <Rotulo>Art. 125.</Rotulo>
+            
+            <Caput id="art125_cpt">
+            
+            
+            
+            <p>O projeto elaborado pelo Presidente da República será votado em globo, admitindo-se a votação destacada de partes consideradas, pela Comissão, em desacordo com o ato da delegação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art126">
+            
+            
+            <Rotulo>Art. 126.</Rotulo>
+            
+            <Caput id="art126_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art127">
+            
+            
+            <Rotulo>Art. 127.</Rotulo>
+            
+            <Caput id="art127_cpt">
+            
+            
+            
+            <p>Não realizado, no prazo estipulado, qualquer dos atos referidos no art. 119, § 2º, in fine, considerar-se-á insubsistente a delegação.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit4_cap3_sec8">
+            
+            
+            <Rotulo>SEÇÃO VIII</Rotulo>
+            <NomeAgrupador>Da Reforma do Regimento Comum</NomeAgrupador>
+            <Artigo id="art128">
+            
+            
+            <Rotulo>Art. 128.</Rotulo>
+            
+            <Caput id="art128_cpt">
+            
+            
+            
+            <p>O Regimento Comum poderá ser modificado por projeto de resolução de iniciativa:</p>
+            <Alinea id="art128_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>das Mesas do Senado Federal e da Câmara dos Deputados; e</p>
+            
+          </Alinea><Alinea id="art128_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>de, no mínimo, 100 (cem) subscritores, sendo 20 (vinte) Senadores e 80 (oitenta) Deputados.</p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art128_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>O projeto será apresentado em sessão conjunta.</p>
+            
+          </Paragrafo><Paragrafo id="art128_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>No caso da alínea a, distribuído o projeto em avulsos, será convocada sessão conjunta para dentro de 5 (cinco) dias, destinada a sua discussão.</p>
+            
+          </Paragrafo><Paragrafo id="art128_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>No caso da alínea b, recebido o projeto, será encaminhado às Mesas do Senado Federal e da Câmara dos Deputados, para emitirem parecer no prazo de 15 (quinze) dias.</p>
+            
+          </Paragrafo><Paragrafo id="art128_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>Esgotado o prazo previsto no § 3º, com ou sem parecer, será convocada sessão conjunta, a realizar-se dentro de 5 (cinco) dias, destinada à discussão do projeto.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art129">
+            
+            
+            <Rotulo>Art. 129.</Rotulo>
+            
+            <Caput id="art129_cpt">
+            
+            
+            
+            <p>Encerrada a discussão, com emendas de iniciativa de qualquer Congressista, o projeto voltará às Mesas do Senado e da Câmara para sobre elas se pronunciarem no prazo de 10 (dez) dias, findo o qual, com ou sem parecer, será convocada sessão conjunta para votação da matéria.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art130">
+            
+            
+            <Rotulo>Art. 130.</Rotulo>
+            
+            <Caput id="art130_cpt">
+            
+            
+            
+            <p>As Mesas do Senado Federal e da Câmara dos Deputados, se assim acordarem, poderão oferecer parecer único, tanto sobre o projeto quanto sobre as emendas.</p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo>
+          </Titulo><Titulo id="tit5">
+            
+            
+            <Rotulo>TÍTULO V</Rotulo>
+            <NomeAgrupador>DAS QUESTÕES DE ORDEM</NomeAgrupador>
+            <Artigo id="art131">
+            
+            
+            <Rotulo>Art. 131.</Rotulo>
+            
+            <Caput id="art131_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>Constituirá questão de ordem, suscitável em qualquer fase da sessão, pelo prazo de 5 (cinco) minutos, toda dúvida sobre a interpretação deste Regimento, na sua prática exclusiva ou relacionada com a <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>.</p>
+            
+          </Caput><Paragrafo id="art131_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A questão de ordem deve ser objetiva, indicar o dispositivo regimental em que se baseia, referir-se a caso concreto relacionado com a matéria tratada na ocasião, não podendo versar tese de natureza doutrinária ou especulativa.</p>
+            
+          </Paragrafo><Paragrafo id="art131_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Para contraditar a questão de ordem, será permitido, a um Congressista, falar por prazo não excedente ao fixado neste artigo.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art132">
+            
+            
+            <Rotulo>Art. 132.</Rotulo>
+            
+            <Caput id="art132_cpt">
+            
+            
+            
+            <p>É irrecorrível a decisão da Presidência em questão de ordem, salvo se estiver relacionada com dispositivo constitucional.</p>
+            
+          </Caput><Paragrafo id="art132_par1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>Apresentado o recurso, que não terá efeito suspensivo, o Presidente, ex-officio ou por proposta do recorrente, deferida pelo Plenário, remeterá a matéria à Comissão de <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> e Justiça da Casa a que pertencer o recorrente.</p>
+            
+          </Paragrafo><Paragrafo id="art132_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>O parecer da Comissão, aprovado pelo Plenário, fixará norma a ser observada pela Mesa nas hipóteses idênticas.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art133">
+            
+            
+            <Rotulo>Art. 133.</Rotulo>
+            
+            <Caput id="art133_cpt">
+            
+            
+            
+            <p>Nenhum Congressista poderá renovar, na mesma sessão, questão de ordem resolvida pela Presidência.</p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo><Titulo id="tit6">
+            
+            
+            <Rotulo>TÍTULO VI</Rotulo>
+            <NomeAgrupador>DAS DISPOSIÇÕES COMUNS SOBRE O PROCESSO LEGISLATIVO</NomeAgrupador>
+            <Capitulo id="tit6_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>DAS DISPOSIÇÕES GERAIS</NomeAgrupador>
+            <Artigo id="art134">
+            
+            
+            <Rotulo>Art. 134.</Rotulo>
+            
+            <Caput id="art134_cpt">
+            
+            
+            
+            <p>O projeto de lei, aprovado em uma das Casas do Congresso Nacional, será enviado à outra Casa, em autógrafos assinados pelo respectivo Presidente.</p>
+            
+          </Caput><Paragrafo id="art134_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>O projeto terá uma ementa e será acompanhado de cópia ou publicação de todos os documentos, votos e discursos que o instruíram em sua tramitação.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art135">
+            
+            
+            <Rotulo>Art. 135.</Rotulo>
+            
+            <Caput id="art135_cpt">
+            
+            
+            
+            <p>A retificação de incorreções de linguagem, feita pela Câmara revisora, desde que não altere o sentido da proposição, não constitui emenda que exija sua volta à Câmara iniciadora.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art136">
+            
+            
+            <Rotulo>Art. 136.</Rotulo>
+            
+            <Caput id="art136_cpt">
+            
+            
+            
+            <p>Emendado o projeto pela Câmara revisora, esta o devolverá à Câmara iniciadora, acompanhado das emendas, com cópia ou publicação dos documentos, votos e discursos que instruíram a sua tramitação.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art137">
+            
+            
+            <Rotulo>Art. 137.</Rotulo>
+            
+            <Caput id="art137_cpt">
+            
+            
+            
+            <p>Ao votar as emendas oferecidas pela Câmara revisora, só é lícito à Câmara iniciadora cindi-las quando se tratar de artigos, parágrafos e alíneas, desde que não modifique ou prejudique o sentido da emenda.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art138">
+            
+            
+            <Rotulo>Art. 138.</Rotulo>
+            
+            <Caput id="art138_cpt">
+            
+            
+            
+            <p>A qualquer Senador ou Deputado, interessado na discussão e votação de emenda na Câmara revisora, é permitido participar dos trabalhos das Comissões que sobre ela devam opinar, podendo discutir a matéria sem direito a voto.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art139">
+            
+            
+            <Rotulo>Art. 139.</Rotulo>
+            
+            <Caput id="art139_cpt">
+            
+            
+            
+            <p>Os projetos aprovados definitivamente serão enviados à sanção no prazo improrrogável de 10 (dez) dias.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art139-1">
+            
+            
+            <Rotulo>Art. 139-A.</Rotulo>
+            
+            <Caput id="art139-1_cpt">
+            
+            
+            
+            <p>O projeto de código em tramitação no Congresso Nacional há mais de três legislaturas será, antes de sua discussão final na Casa que o encaminhará à sanção, submetido a uma revisão para sua adequação às alterações constitucionais e legais promulgadas desde sua apresentação.</p>
+            
+          </Caput><Paragrafo id="art139-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>O Relator do projeto na Casa em que se finalizar sua tramitação no Congresso Nacional, antes de apresentar perante a Comissão respectiva seu parecer, encaminhará ao Presidente da Casa relatório apontando as alterações necessárias para atualizar o texto do projeto em face das alterações legais aprovadas durante o curso de sua tramitação.</p>
+            
+          </Paragrafo><Paragrafo id="art139-1_par2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>O relatório mencionado no § 1º será encaminhado pelo Presidente à outra Casa do Congresso Nacional, que o submeterá à respectiva Comissão de <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> e Justiça.</p>
+            
+          </Paragrafo><Paragrafo id="art139-1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>A Comissão, no prazo de 5 (cinco) dias, oferecerá parecer sobre a matéria, que se limitará a verificar se as alterações propostas restringem-se a promover a necessária atualização, na forma do § 1º.</p>
+            
+          </Paragrafo><Paragrafo id="art139-1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>O parecer da Comissão será apreciado em plenário no prazo de 5 (cinco) dias, com preferência sobre as demais proposições, vedadas emendas ou modificações.</p>
+            
+          </Paragrafo><Paragrafo id="art139-1_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>Votado o parecer, será feita a devida comunicação à Casa em que se encontra o projeto de código para o prosseguimento de sua tramitação regimental, incorporadas as alterações aprovadas.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art140">
+            
+            
+            <Rotulo>Art. 140.</Rotulo>
+            
+            <Caput id="art140_cpt">
+            
+            
+            
+            <p>Quando sobre a mesma matéria houver projeto em ambas as Câmaras, terá prioridade, para a discussão e votação, o que primeiro chegar à revisão.</p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit6_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>DAS DISPOSIÇÕES SOBRE MATÉRIAS COM TRAMITAÇÃO EM PRAZO DETERMINADO</NomeAgrupador>
+            <Artigo id="art141">
+            
+            
+            <Rotulo>Art. 141.</Rotulo>
+            
+            <Caput id="art141_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>(revogado pela <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</span> de 1988).</p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit6_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>DOS PROJETOS ELABORADOS POR COMISSÃO MISTA</NomeAgrupador>
+            <Artigo id="art142">
+            
+            
+            <Rotulo>Art. 142.</Rotulo>
+            
+            <Caput id="art142_cpt">
+            
+            
+            
+            <p>Os projetos elaborados por Comissão Mista serão encaminhados, alternadamente, ao Senado e à Câmara dos Deputados.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art143">
+            
+            
+            <Rotulo>Art. 143.</Rotulo>
+            
+            <Caput id="art143_cpt">
+            
+            
+            
+            <p>O projeto da Comissão Mista terá a seguinte tramitação na Câmara que dele conhecer inicialmente:</p>
+            <Alinea id="art143_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>recebido no expediente, será lido e publicado, devendo ser submetido à discussão, em primeiro turno, 5 (cinco) dias depois;</p>
+            
+          </Alinea><Alinea id="art143_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>a discussão, em primeiro turno, far-se-á, pelo menos, em 2 (duas) sessões consecutivas;</p>
+            
+          </Alinea><Alinea id="art143_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>encerrada a discussão, proceder-se-á à votação, salvo se houver emendas, caso em que serão encaminhadas à Comissão Mista para, sobre elas, opinar;</p>
+            
+          </Alinea><Alinea id="art143_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>publicado o parecer sobre as emendas será a matéria incluída em fase de votação, na Ordem do Dia da sessão que se realizar 48 (quarenta e oito) horas depois;</p>
+            
+          </Alinea><Alinea id="art143_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>aprovado com emendas, voltará o projeto à Comissão Mista para elaborar a redação do vencido; e</p>
+            
+          </Alinea><Alinea id="art143_cpt_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>o projeto será incluído em Ordem do Dia, para discussão, em segundo turno, obedecido o interstício de 48 (quarenta e oito) horas de sua aprovação, sem emendas, em primeiro turno, ou da publicação do parecer da Comissão Mista, com redação do vencido.</p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art143_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>A tramitação na Casa revisora obedecerá ao disposto nas alíneas a a e deste artigo.</p>
+            
+          </Paragrafo><Paragrafo id="art143_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>Voltando o projeto à Câmara iniciadora, com emendas, será ele instruído com o parecer sobre elas proferido em sua tramitação naquela Casa.</p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit7">
+            
+            
+            <Rotulo>TÍTULO VII</Rotulo>
+            <NomeAgrupador>DAS DISPOSIÇÕES GERAIS E TRANSITÓRIAS</NomeAgrupador>
+            <Artigo id="art144">
+            
+            
+            <Rotulo>Art. 144.</Rotulo>
+            
+            <Caput id="art144_cpt">
+            
+            
+            
+            <p>Toda publicação relativa às sessões conjuntas e aos trabalhos das Comissões Mistas será feita no Diário do Congresso Nacional ou em suas seções.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art145">
+            
+            
+            <Rotulo>Art. 145.</Rotulo>
+            
+            <Caput id="art145_cpt">
+            
+            
+            
+            <p>Mediante solicitação da Presidência, o Senado Federal e a Câmara dos Deputados designarão funcionários de suas Secretarias para atender às Comissões Mistas e aos serviços auxiliares da Mesa nas sessões conjuntas.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art146">
+            
+            
+            <Rotulo>Art. 146.</Rotulo>
+            
+            <Caput id="art146_cpt">
+            
+            
+            
+            <p>Durante as sessões conjuntas, as galerias serão franqueadas ao público, não se admitindo dos espectadores qualquer manifestação de apoio ou reprovação ao que ocorrer em plenário ou a prática de atos que possam perturbar os trabalhos.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art147">
+            
+            
+            <Rotulo>Art. 147.</Rotulo>
+            
+            <Caput id="art147_cpt">
+            
+            
+            
+            <p>O arquivo das sessões conjuntas ficará sob a guarda da Secretaria do Senado Federal.</p>
+            
+          </Caput><Paragrafo id="art147_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>Os anais das sessões conjuntas serão publicados pela Mesa do Senado Federal.</p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art148">
+            
+            
+            <Rotulo>Art. 148.</Rotulo>
+            
+            <Caput id="art148_cpt">
+            
+            
+            
+            <p>(vigência expirada).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art149">
+            
+            
+            <Rotulo>Art. 149.</Rotulo>
+            
+            <Caput id="art149_cpt">
+            
+            
+            
+            <p>(vigência expirada).</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art150">
+            
+            
+            <Rotulo>Art. 150.</Rotulo>
+            
+            <Caput id="art150_cpt">
+            
+            
+            
+            <p>As despesas com o funcionamento das sessões conjuntas, bem como das Comissões Mistas, serão atendidas pela dotação própria do Senado Federal, exceto no que se refere às despesas com pessoal, que serão custeadas pela Casa respectiva.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art151">
+            
+            
+            <Rotulo>Art. 151.</Rotulo>
+            
+            <Caput id="art151_cpt">
+            
+            
+            
+            <p>Nos casos omissos neste Regimento aplicar-se-ão as disposições do Regimento do Senado e, se este ainda for omisso, as do da Câmara dos Deputados.</p>
+            
+          </Caput>
+          </Artigo><Artigo id="art152">
+            
+            
+            <Rotulo>Art. 152.</Rotulo>
+            
+            <Caput id="art152_cpt">
+            
+            
+            
+            <p>Esta Resolução entra em vigor na data de sua publicação.</p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+        </Norma>
+      </ProjetoNorma>
+    </LexML>
