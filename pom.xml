@@ -157,6 +157,27 @@
 					</archive>
 				</configuration>
 			</plugin>
+			<plugin>
+			  <!--groupId>org.dstovall</groupId--> <!-- not available on the central -->
+			  <groupId>com.jolira</groupId>
+			  <artifactId>onejar-maven-plugin</artifactId>
+			  <version>1.4.4</version>
+			  <executions>
+			    <execution>
+			      <phase>package</phase>
+			      <configuration>
+			        <mainClass>br.gov.lexml.renderer.gui.Main</mainClass>
+			        <attachToBuild>true</attachToBuild>
+			        <!-- https://code.google.com/p/onejar-maven-plugin/issues/detail?id=8 -->
+			        <!--classifier>onejar</classifier-->
+			        <filename>${project.build.finalName}-onejar.${project.packaging}</filename>
+			      </configuration>
+			      <goals>
+			        <goal>one-jar</goal>
+			      </goals>
+			    </execution>
+			  </executions>
+			</plugin>
 		</plugins>
 		<resources>
 			<resource>
@@ -215,8 +236,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
 
+
+		<dependency>
+			<groupId>org.scala-lang.modules</groupId>
+			<artifactId>scala-swing_${scala.version}</artifactId>
+			<version>2.0.0-M2</version>
+		</dependency>
 	</dependencies>
 	
 </project>
