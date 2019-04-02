@@ -7,7 +7,7 @@
 	
 	<properties>
 		<scala.version>2.11</scala.version>
-		<scala.lib.version>${scala.version}.6</scala.lib.version>
+		<scala.lib.version>${scala.version}.11</scala.lib.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -67,7 +67,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.5.2</version>
+				<version>2.5.3</version>
 				<configuration>
 					<detail>true</detail>
 					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
@@ -75,7 +75,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.7</version>
+				<version>3.0.0-M1</version>
 				<configuration>
 					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
 				</configuration>
@@ -95,7 +95,7 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.11</version>
+				<version>0.12</version>
 				<configuration>
 					<message>Maven artifacts for ${project.artifactId}
 						${project.version}</message>  <!-- git commit message -->
@@ -125,7 +125,7 @@
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
 				<artifactId>scala-maven-plugin</artifactId>
-				<version>3.2.1</version>
+				<version>3.4.4</version>
 				<executions>
 					<execution>
 						<goals>
@@ -147,7 +147,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.1.1</version>
 				<configuration>
 					<archive>
 						<manifestEntries>
@@ -192,7 +192,7 @@
 		<dependency>
 		    <groupId>org.scala-lang.modules</groupId>
 		    <artifactId>scala-xml_${scala.version}</artifactId>
-		    <version>1.0.4</version>
+		    <version>1.0.6</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
