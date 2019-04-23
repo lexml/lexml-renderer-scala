@@ -19,3 +19,5 @@ project/plugins/project/
 /target/
 /.cache-main
 /.cache-tests
+/.idea
+lexml-renderer-scala.iml
