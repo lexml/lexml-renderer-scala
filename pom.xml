@@ -3,7 +3,7 @@
 	
 	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-scala</artifactId>
-	<version>1.0.7-SNAPSHOT</version>
+	<version>1.0.10-SNAPSHOT</version>
 	
 	<properties>
 		<scala.version>2.11</scala.version>
@@ -24,9 +24,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
-			<name>GitHub ${project.artifactId} Repository</name>
-			<url>https://raw.github.com/lexml/mvn-repo/master</url>
+			<id>bintray-lexml</id>
+			<name>Bintray ${project.artifactId} Repository</name>
+			<url>https://api.bintray.com/maven/lexml/lexml/${project.artifactId}/;publish=1</url>
 		</repository>
 	</distributionManagement>
 
@@ -71,14 +71,12 @@
 				<configuration>
 					<detail>true</detail>
 					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
 			<plugin>
 				<artifactId>maven-deploy-plugin</artifactId>
-				<version>3.0.0-M1</version>
-				<configuration>
-					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
-				</configuration>
+				<version>2.7</version>
 			</plugin>
 			<plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
@@ -87,7 +85,7 @@
 			    <execution>
 			      <id>attach-sources</id>
 			      <goals>
-			        <goal>jar</goal>
+			        <goal>jar-no-fork</goal>
 			      </goals>
 			    </execution>
 			  </executions>
@@ -120,6 +118,34 @@
 					</execution>
 				</executions>
 			</plugin>		
+<!--			<plugin>-->
+<!--				<groupId>com.github.github</groupId>-->
+<!--				<artifactId>site-maven-plugin</artifactId>-->
+<!--				<version>0.11</version>-->
+<!--				<configuration>-->
+<!--					<message>Maven artifacts for ${project.artifactId}-->
+<!--						${project.version}</message>  &lt;!&ndash; git commit message &ndash;&gt;-->
+<!--					<noJekyll>true</noJekyll>                                  &lt;!&ndash; disable webpage processing &ndash;&gt;-->
+<!--					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> &lt;!&ndash; matches distribution management repository url above &ndash;&gt;-->
+<!--					<branch>refs/heads/master</branch>-->
+<!--					<includes>-->
+<!--						<include>**/*</include>-->
+<!--					</includes>-->
+<!--					<repositoryName>mvn-repo</repositoryName>      &lt;!&ndash; github repo name &ndash;&gt;-->
+<!--					<repositoryOwner>lexml</repositoryOwner>    &lt;!&ndash; github username &ndash;&gt;-->
+<!--					<merge>true</merge>-->
+<!--				</configuration>-->
+<!--				<executions>-->
+<!--					&lt;!&ndash; run site-maven-plugin's 'site' target as part of the build's normal -->
+<!--						'deploy' phase &ndash;&gt;-->
+<!--					<execution>-->
+<!--						<goals>-->
+<!--							<goal>site</goal>-->
+<!--						</goals>-->
+<!--						<phase>deploy</phase>-->
+<!--					</execution>-->
+<!--				</executions>-->
+<!--			</plugin>		-->
 		
 			
 			<plugin>
