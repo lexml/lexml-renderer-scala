@@ -1,13 +1,5 @@
 package br.gov.lexml.renderer.gui
 
-import scala.swing.Frame
-import javax.swing.JFrame
-import javax.swing.JPanel
-import java.awt.BorderLayout
-import javax.swing.JTextArea
-import javax.swing.BoxLayout
-import javax.swing.JTextField
-import javax.swing.JButton
 import scala.swing.TextArea
 import scala.swing.BorderPanel
 import scala.swing.MainFrame
@@ -17,17 +9,14 @@ import scala.swing.Button
 import scala.swing.BoxPanel
 import scala.swing.Orientation
 import scala.swing.event.ButtonClicked
-import scala.swing.Dialog
 import scala.swing.FileChooser
 import java.io.File
-import javax.swing.filechooser.FileFilter
 import javax.swing.filechooser.FileNameExtensionFilter
 
 object Processador {
   def processa(inFile : File, outFile : File, log : String => Unit) : Unit = {
     log(s"Processando arquivo ${inFile.getPath}")
     import java.io._
-    import scala.xml._
     import br.gov.lexml.renderer.strategies.{XML => _, _}
     val renderer = XhtmlRenderer.makeRenderer()
     log("Lendo arquivo LexML")
@@ -43,7 +32,7 @@ object Processador {
 }
 
 object Main extends SimpleSwingApplication {
-  def top = new MainFrame {
+  def top : MainFrame = new MainFrame {
     title = "EPub Tool"
     
     object logArea extends TextArea {
@@ -53,7 +42,7 @@ object Main extends SimpleSwingApplication {
       wordWrap = true
     }
     
-    def log(s : String) = logArea.append(s + scala.util.Properties.lineSeparator)
+    def log(s : String) { logArea.append(s + scala.util.Properties.lineSeparator) }
     
     
     object bottomPanel extends BoxPanel(Orientation.Horizontal) {
@@ -118,8 +107,8 @@ object Main extends SimpleSwingApplication {
             inputFileChooser.selectedFile = null
           }
           if(inputFileChooser.showOpenDialog(this) == FileChooser.Result.Approve) {            
-            var newPath = inputFileChooser.selectedFile.getPath
-            log(s"Arquivo de entrada escolhido: ${newPath}")
+            val newPath = inputFileChooser.selectedFile.getPath
+            log(s"Arquivo de entrada escolhido: $newPath")
             if(newPath != inputFileField.text) {              
               inputFileField.text = newPath
               val outPath = newPath.replaceAll("\\.[^.]*$",".epub")              

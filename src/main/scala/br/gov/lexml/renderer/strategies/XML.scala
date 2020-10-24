@@ -1,9 +1,8 @@
 package br.gov.lexml.renderer.strategies
 
-import org.kiama.==>
-
-import org.kiama.rewriting.Strategy
-import org.kiama.rewriting.Rewriter._
+import org.bitbucket.inkytonik.kiama.rewriting.Strategy
+import org.bitbucket.inkytonik.kiama.rewriting.Rewriter._
+import org.bitbucket.inkytonik.kiama.==>
 import br.gov.lexml.renderer.terms.XML.AST._
 
 /**
@@ -17,9 +16,9 @@ object XML {
   lazy val matchBlockElement : Strategy = {
     val blockElements = Set("p", "ol", "li", "table", "thead", "tbody", "tfoot",
       "tr", "td")
-    rule {
+    rule ({
       case e : XElem if blockElements contains e.name => e
-    }
+    } : XElem ==> XElem)
   }
   
   /**
@@ -74,10 +73,10 @@ object XML {
     }
 
     everywherebu {
-      rule {
+      rule ({
         case e: XElem if elementsToExplode.contains(e.name) ⇒
           e copy (contents = wrapAnonymousInlineInP(e.contents))
-        case l: List[XObject] if !l.isEmpty ⇒ l flatMap {
+        case l: List[XObject] if l.nonEmpty ⇒ l flatMap {
           case e: XElem if elementsToKeep.contains(e.name) ⇒ List(e)
           case e: XElem if elementsToRename.contains(e.name) ⇒ List(e copy (name = "p"))
           case e: XElem if elementsToExplode.contains(e.name) ⇒ e.contents
@@ -85,10 +84,10 @@ object XML {
           case x ⇒ List(x)
         }
         case x ⇒ x
-      }
-    } <* rule {
-      case (x: List[XObject]) ⇒ wrapAnonymousInlineInP(x)
-    }
+      } : Any ==> Any)
+    } <* rule ({
+      case x: List[XObject] ⇒ wrapAnonymousInlineInP(x) : Any
+    } : Any ==> Any)
   }
 
 /*  lazy val cleanAtributes: Strategy = {
