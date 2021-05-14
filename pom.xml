@@ -3,7 +3,7 @@
 	
 	<groupId>br.gov.lexml</groupId>
 	<artifactId>lexml-renderer-scala</artifactId>
-	<version>1.1.2-SNAPSHOT</version>
+	<version>1.1.2</version>
 	<name>LexML EPUB Renderer</name>
 	<description>LexML Brazil document EPUB rendering library.</description>
 	<url>https://github.com/lexml/lexml-renderer-scala</url>
@@ -46,7 +46,7 @@
 		<url>https://github.com/lexml/lexml-renderer-scala</url>
 		<developerConnection>scm:git:https://github.com/lexml/lexml-renderer-scala.git</developerConnection>
 		<connection>scm:git:https://github.com/lexml/lexml-renderer-scala.git</connection>
-		<tag>HEAD</tag>
+		<tag>1.1.2</tag>
 	</scm>
 
 	<build>
