@@ -1,25 +1,22 @@
 package br.gov.lexml.renderer.strategies
 
 import org.bitbucket.inkytonik.kiama.rewriting.Strategy
-import org.bitbucket.inkytonik.kiama.rewriting.Rewriter._
+import org.bitbucket.inkytonik.kiama.rewriting.Rewriter.*
 import org.bitbucket.inkytonik.kiama.==>
-import br.gov.lexml.renderer.terms.XML.AST._
+import br.gov.lexml.renderer.terms.XML.AST.*
 
 /**
  * Estratégias de transformação do XHTML de entrada
  *
  * @author João Rafael Moraes Nicola
  */
-object XML {
-
-  
-  lazy val matchBlockElement : Strategy = {
+object XML:
+  lazy val matchBlockElement : Strategy =
     val blockElements = Set("p", "ol", "li", "table", "thead", "tbody", "tfoot",
       "tr", "td")
     rule ({
       case e : XElem if blockElements contains e.name => e
     } : XElem ==> XElem)
-  }
   
   /**
    * Filtra os elementos do XHTML de entrada, mantendo apenas os elementos que interessam ao processo de conversão.
@@ -29,7 +26,7 @@ object XML {
    * substituindo os elementos cujos rótulos estão definidos na variável `explodedElements` e removendo interamente os
    * outros.
    */
-  lazy val filterAndExplode: Strategy = {
+  lazy val filterAndExplode: Strategy =
     /**
      * Lista de elementos a serem preservados.
      */
@@ -55,73 +52,38 @@ object XML {
      * Envelopa sequências de elementos inline em conteúdos mistos (inline e bloco)
      * de elementos de bloco
      */
-    def wrapAnonymousInlineInP(el: List[XObject]): List[XObject] = {
+    def wrapAnonymousInlineInP(el: List[XObject]): List[XObject] =
       def isInline(x: XObject) = x match {
-        case _: XText ⇒ true
-        case e: XElem ⇒ inlineElements.contains(e.name)
+        case _: XText => true
+        case e: XElem => inlineElements.contains(e.name)
       }
-      def wrapIfNeeded: ((List[XObject], List[XObject])) ⇒ List[XObject] = {
-        case (Nil, notInline) ⇒ notInline
-        case (inline, Nil) ⇒ inline
-        case (inline, notInline) ⇒ XElem("p", "", Map(), inline) :: notInline
+      def wrapIfNeeded: ((List[XObject], List[XObject])) => List[XObject] = {
+        case (Nil, notInline) => notInline
+        case (inline, Nil) => inline
+        case (inline, notInline) => XElem("p", "", Map(), inline) :: notInline
       }
       wrapIfNeeded(el.foldRight((List[XObject](), List[XObject]())) {
-        case (o, (inline, notInline)) if isInline(o) ⇒ (o :: inline, notInline)
-        case (o, (Nil, notInline)) ⇒ (Nil, o :: notInline)
-        case (o, (inline, notInline)) ⇒ (Nil, o :: XElem("p", "", Map(), inline) :: notInline)
+        case (o, (inline, notInline)) if isInline(o) => (o :: inline, notInline)
+        case (o, (Nil, notInline)) => (Nil, o :: notInline)
+        case (o, (inline, notInline)) => (Nil, o :: XElem("p", "", Map(), inline) :: notInline)
       })
-    }
+    end wrapAnonymousInlineInP
 
     everywherebu {
       rule ({
-        case e: XElem if elementsToExplode.contains(e.name) ⇒
+        case e: XElem if elementsToExplode.contains(e.name) =>
           e copy (contents = wrapAnonymousInlineInP(e.contents))
-        case l: List[XObject] if l.nonEmpty ⇒ l flatMap {
-          case e: XElem if elementsToKeep.contains(e.name) ⇒ List(e)
-          case e: XElem if elementsToRename.contains(e.name) ⇒ List(e copy (name = "p"))
-          case e: XElem if elementsToExplode.contains(e.name) ⇒ e.contents
-          case _: XElem ⇒ List()
-          case x ⇒ List(x)
+        case l: List[XObject] if l.nonEmpty => l flatMap {
+          case e: XElem if elementsToKeep.contains(e.name) => List(e)
+          case e: XElem if elementsToRename.contains(e.name) => List(e copy (name = "p"))
+          case e: XElem if elementsToExplode.contains(e.name) => e.contents
+          case _: XElem => List()
+          case x => List(x)
         }
-        case x ⇒ x
+        case x => x
       } : Any ==> Any)
     } <* rule ({
-      case x: List[XObject] ⇒ wrapAnonymousInlineInP(x) : Any
+      case x: List[XObject] => wrapAnonymousInlineInP(x) : Any
     } : Any ==> Any)
-  }
-
-/*  lazy val cleanAtributes: Strategy = {
-    def styleMap(m : Map[String,String]) = m.get("style","").map(_.split(";").toList.map(_.split(":").toList.map(_.trim)).collect {
-      case List(x) => (x,"")
-      case List(x,y) => (x,y)
-    }) toMap
-    def onlyIn(s : Set[String])(m : Map[String,String]) = m.filterKeys(s.contains(_))
-    def onlyBoldAndItalic(m : Map[String,String]) = styleMap(m).collect({
-      case (styleName,value) => boldAndItalic(styleName,value) 
-    })
-    val restrict1 = Map[String,Set[String]](
-        "table" -> Set("rows","cols"),
-        "td" -> Set("rowspan","colspan"),
-        "
-    ) 
-    
-    
-    def boldAndItalic(m : Map[String,String]) = {
-      val m1 = styleMap(m)
-      val isBold = m1.getOrElse("font-weight","") match {
-        case "bold" => true
-        case "bolder" => true
-        case _ => false
-      }
-      val isItalics
-    }
-    everywheretd { 
-      rule {      
-      	case XElem("span","",m,cl) => (m.get("style").map) match { 
-      		if(m.get)
-      	}
-  }
-  }
-  */
-}
-
+  end filterAndExplode
+end XML
