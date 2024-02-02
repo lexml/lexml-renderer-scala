@@ -12,7 +12,7 @@ import br.gov.lexml.renderer.epub._
 
 trait RenderOptions:
   def getUrlFor(href: String): Option[String] =
-    Some(if href.startsWith("urn:") then s"http://www.lexml.gov.br/urn/$href" else href)
+    Some(if href.startsWith("urn:") then s"https://normas.leg.br/?urn=$href" else href)
   def makeXhtmlId: Option[String => String] = None
   val sizeLimit: Int = 150000
   def makeXhtmlFileName(n: Int): String = f"Section$n%04d.xhtml"
@@ -27,7 +27,7 @@ object XhtmlRenderer:
 
   def completeHref(base: String) : Strategy = rule ({
     case e: XElem if e.attributes.get("xlink:href").exists(_.startsWith("urn:")) =>
-      e copy (attributes = e.attributes + ("xlink:href" -> (base + e.attributes("xlink.href"))))
+      e copy (attributes = e.attributes + ("xlink:href" -> (base + e.attributes("xlink:href"))))
   } : XElem ==> XElem)
 
   val hasXmlBase: Strategy = rule[XObject] {
@@ -103,8 +103,12 @@ object XhtmlRenderer:
     def rotulos(e: XElem) = {
       val l = collectl[Either[String, (Int,String)]]({
         case e: XElem if e.attributes.contains("id") => Left(e.attributes("id"))
-        case e: XElem if e.name == "Rotulo" => Right((0,alltext(e)))
-        case e: XElem if e.name == "NomeAgrupador" => Right((1,alltext(e)))
+        case e: XElem if e.name == "Rotulo" =>
+          val txt = alltext.apply(e) : String
+          Right(0,txt)
+        case e: XElem if e.name == "NomeAgrupador" =>
+          val txt = alltext.apply(e) : String
+          Right(1,txt)
       })(e)
 
       val (_, rots) = l.foldLeft[(Option[String], List[(String, String)])]((None, List())) {

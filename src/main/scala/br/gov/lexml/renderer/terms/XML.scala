@@ -5,14 +5,13 @@ import org.bitbucket.inkytonik.kiama.attribution.UncachedAttribution.attr
 
 object XML:
   object AST:
-    enum XObject:
+    abstract sealed class XObject extends Product:
       final override def toString: String = Conversions.xobject2node(this).toString
-      case XElem(name: String,
+    final case class XElem(name: String,
         prefix: String = "",
         attributes: Map[String, String],
-        contents: List[XObject])
-      case XText(text: String)
-    export XObject.XElem, XObject.XText
+        contents: List[XObject]) extends XObject
+    final case class XText(text: String) extends XObject
 
   import AST._
 
@@ -63,7 +62,7 @@ object XML:
   object Attributions:
     lazy val alltext: XObject => String =
       attr({
-        case e: XElem => e.contents.map(_ -> alltext).mkString("")
+        case e: XElem => e.contents.map(x => alltext(x)).mkString("")
         case t: XText => t.text
       }: XObject ==> String)
 end XML

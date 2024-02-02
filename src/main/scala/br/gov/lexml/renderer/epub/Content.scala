@@ -124,7 +124,7 @@ final case class TextSectionSource(
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt">
       <head>
         { NodeSeq fromSeq styles.map(s =>
-        <link type="text/css" rel="stylesheet" href={reducedPath + s.path}></link>
+        <link type="text/css" rel="stylesheet" href={reducedPath + s.path}/>
           ) }
         <title>{ titulo }</title>
         <meta name="LEXML.urn" content={ urn }/>

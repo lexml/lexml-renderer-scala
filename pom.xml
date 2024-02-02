@@ -41,6 +41,9 @@
 		<scala.version>3.3.1</scala.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.failOnError>false</maven.javadoc.failOnError>
+		<native.maven.plugin.version>0.9.28</native.maven.plugin.version>
+		<cmdline.mainClass>br.gov.lexml.renderer.cmdline.EPUBRendererMain</cmdline.mainClass>
+		<cmdline.imageName>lexml-renderer-epub</cmdline.imageName>
 	</properties>
 
 	<scm>
@@ -74,6 +77,19 @@
 			<plugin>
 				<artifactId>maven-deploy-plugin</artifactId>
 				<version>3.1.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.3.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<mainClass>${cmdline.mainClass}</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -151,6 +167,17 @@
 			<groupId>org.bitbucket.inkytonik.kiama</groupId>
 			<artifactId>kiama_${scala.compat.version}</artifactId>
 			<version>2.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.scopt</groupId>
+			<artifactId>scopt_${scala.compat.version}</artifactId>
+			<version>4.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.4.14</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -270,6 +297,91 @@
        </build>
 
    </profile>
+
+	<profile>
+		<id>native</id>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.graalvm.buildtools</groupId>
+					<artifactId>native-maven-plugin</artifactId>
+					<version>${native.maven.plugin.version}</version>
+					<extensions>true</extensions>
+					<executions>
+						<execution>
+							<id>build-native</id>
+							<goals>
+								<goal>compile-no-fork</goal>
+							</goals>
+							<phase>package</phase>
+						</execution>
+						<execution>
+							<id>test-native</id>
+							<goals>
+								<goal>test</goal>
+							</goals>
+							<phase>test</phase>
+						</execution>
+					</executions>
+					<configuration>
+						<agent>
+							<enabled>true</enabled>
+						</agent>
+						<imageName>${cmdline.imageName}</imageName>
+						<verbose>true</verbose>
+						<!-- ... -->
+					</configuration>
+				</plugin>
+
+
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>3.0.0</version>
+					<executions>
+						<execution>
+							<id>java-agent</id>
+							<goals>
+								<goal>exec</goal>
+							</goals>
+							<configuration>
+								<executable>java</executable>
+								<workingDirectory>${project.build.directory}</workingDirectory>
+								<arguments>
+									<argument>-classpath</argument>
+									<classpath/>
+									<argument>${cmdline.mainClass}</argument>
+									<argument>-i</argument>
+									<argument>${project.basedir}/src/test/xml/cpc.xml</argument>
+									<argument>-o</argument>
+									<argument>${project.build.directory}/cpc.epub</argument>
+									<argument>-d</argument>
+								</arguments>
+							</configuration>
+						</execution>
+						<execution>
+							<id>native</id>
+							<goals>
+								<goal>exec</goal>
+							</goals>
+							<configuration>
+								<executable>${project.build.directory}/${cmdline.imageName}</executable>
+								<workingDirectory>${project.build.directory}</workingDirectory>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</build>
+		<dependencies>
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>1.4.14</version>
+				<scope>runtime</scope>
+			</dependency>
+		</dependencies>
+	</profile>
 </profiles>
 		
 
