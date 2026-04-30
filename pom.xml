@@ -38,7 +38,7 @@
 
 	<properties>
 		<scala.version>2.13</scala.version>
-		<scala.lib.version>${scala.version}.2</scala.lib.version>
+		<scala.lib.version>${scala.version}.18</scala.lib.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -54,7 +54,7 @@
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
 				<artifactId>scala-maven-plugin</artifactId>
-				<version>4.3.1</version>
+				<version>4.9.10</version>
 				<executions>
 					<execution>
 						<goals>
@@ -64,6 +64,8 @@
 					</execution>
 				</executions>
 				<configuration>
+					<scalaVersion>${scala.lib.version}</scalaVersion>
+					<scalaCompatVersion>${scala.version}</scalaCompatVersion>
 					<sourceDir>src/main/scala</sourceDir>
 					<fork>true</fork>
 					<jvmArgs>
@@ -114,7 +116,6 @@
 		<dependency>
 			<groupId>org.scala-lang</groupId>
 			<artifactId>scala-library</artifactId>
-			<version>${scala.lib.version}</version>
 			<type>jar</type>
 		</dependency>
 
@@ -177,6 +178,12 @@
         <artifactId>guava</artifactId>
         <version>24.1.1</version>
       </dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.lib.version}</version>
+			<type>jar</type>
+		</dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -222,27 +229,32 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>3.3.1</version>
                 <configuration>
                     <detail>true</detail>
                     <tagNameFormat>@{project.version}</tagNameFormat>
                 </configuration>
-            </plugin>
+	</plugin>
+	<plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-deploy-plugin</artifactId>
+                  <version>3.1.4</version>
+              </plugin>
               <plugin>
-                  <groupId>org.sonatype.plugins</groupId>
-                  <artifactId>nexus-staging-maven-plugin</artifactId>
-                  <version>1.6.7</version>
+                  <groupId>org.sonatype.central</groupId>
+                  <artifactId>central-publishing-maven-plugin</artifactId>
+                  <version>0.10.0</version>
                   <extensions>true</extensions>
-                  <configuration>
-                      <serverId>ossrh</serverId>
-                      <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                      <autoReleaseAfterClose>true</autoReleaseAfterClose>
+		  <configuration>
+			  <publishingServerId>central</publishingServerId>	 
+			  <autoPublish>true</autoPublish>
+		          <waitUntil>validated</waitUntil>
                   </configuration>
               </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.3.1</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -255,7 +267,8 @@
               <!-- Usar o plugin jar abaixo só para projetos Scala -->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-jar-plugin</artifactId>
+	    <artifactId>maven-jar-plugin</artifactId>
+	    <version>3.4.2</version>
             <executions>
                 <execution>
                     <id>empty-javadoc-jar</id>
@@ -273,7 +286,7 @@
               <plugin>
                   <groupId>org.apache.maven.plugins</groupId>
                   <artifactId>maven-gpg-plugin</artifactId>
-                  <version>3.0.1</version>
+                  <version>3.2.7</version>
                   <executions>
                       <execution>
                           <id>sign-artifacts</id>
